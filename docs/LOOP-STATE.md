@@ -1,7 +1,9 @@
 # LOOP-STATE · 巡检状态
 
 ## 最近巡检
-- 时间：2026-09-05 13:00（每小时巡检#1 + 主会话合体验收）
+- 时间：2026-09-05 14:30（巡检#2 · 用户已叫停每小时loop，本条为末次巡检）
+- 距提交截止：约21.5小时
+- loop状态：❌ 已停止（automation-0ea4eaa2 已删除，应用户要求）
 - 距提交截止：约23小时
 - 本轮修复：静态导出打通（doctor/[id]拆server wrapper+client，generateStaticParams），out/ 1.9MB纯静态就绪，全路由200——部署不再依赖Vercel登录
 

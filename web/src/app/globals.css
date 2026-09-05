@@ -2,22 +2,65 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ============================================================
+   配色正本：项目二/design/UIUX配色规范-碳黑钴蓝-v1.md
+   依据 項目二.pdf 实测（2026-09-05）。禁止引入任何新色相。
+   ============================================================ */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+  /* 碳黑中性 */
+  --carbon-950: #0b0c0e;
+  --carbon-900: #141518;
+  --carbon-850: #1a1b1f;
+  --carbon-800: #222327;
+  --carbon-700: #2b2d33;
+  --carbon-600: #3b3e45;
+  --gray-400: #8b909a;
+  --gray-200: #c7cad1;
+  --white: #ffffff;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  /* 钴蓝（唯一色相） */
+  --cobalt-900: #152b5c;
+  --cobalt-800: #163487;
+  --cobalt-700: #0c3ea9;
+  --cobalt-600: #2144b2; /* 主品牌色 */
+  --cobalt-500: #2e50ab;
+  --cobalt-400: #375ad4;
+  --cobalt-300: #4376eb;
+  --cobalt-150: #9db8f7;
+
+  /* 语义状态三色（仅安全语义，禁止图表/装饰） */
+  --status-safe: #2fbf83;
+  --status-warn: #f0b34e;
+  --status-danger: #e5544b;
+
+  /* 三端规范（24号文档 §6.1）映射别名 */
+  --background: var(--carbon-950);
+  --foreground: var(--gray-200);
+  --bg-base: var(--carbon-950);
+  --bg-surface: var(--carbon-850);
+  --bg-elevated: var(--carbon-800);
+  --bg-inset: var(--carbon-900);
+  --line-default: rgba(255, 255, 255, 0.09);
+  --line-strong: rgba(255, 255, 255, 0.16);
+  --accent: var(--cobalt-600);
+  --accent-hi: var(--cobalt-300);
+  --accent-soft: var(--cobalt-150);
+  --accent-dim: rgba(67, 118, 235, 0.15);
+  --safe: var(--status-safe);
+  --warning: var(--status-warn);
+  --danger: var(--status-danger);
+  --chart-semg: var(--cobalt-300);
+  --chart-pressure: var(--cobalt-150);
+  --chart-angle: var(--gray-400);
+  --text-primary: var(--white);
+  --text-secondary: var(--gray-200);
+  --text-muted: var(--gray-400);
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, "PingFang SC", "Noto Sans SC", "Microsoft YaHei", sans-serif;
 }
 
 @layer utilities {
