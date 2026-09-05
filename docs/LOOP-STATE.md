@@ -1,8 +1,9 @@
 # LOOP-STATE · 巡检状态
 
 ## 最近巡检
-- 时间：2026-09-05 12:25（主会话）
-- 距提交截止：约23.5小时
+- 时间：2026-09-05 13:00（每小时巡检#1 + 主会话合体验收）
+- 距提交截止：约23小时
+- 本轮修复：静态导出打通（doctor/[id]拆server wrapper+client，generateStaticParams），out/ 1.9MB纯静态就绪，全路由200——部署不再依赖Vercel登录
 
 ## 状态表
 | 项 | 状态 | 说明 |
@@ -14,10 +15,10 @@
 | 落地页+layout | ✅ | 主题+免责声明+四入口 |
 | 医生端 /doctor | ✅ | 列表/AI摘要/计划编辑器/下发toast，冒烟200 |
 | AI大屏 /dashboard | ✅ | 1080p一屏：风险牌/趋势图/digest轮播/AI LAYER ACTIVE |
-| 患者端 /patient | ⏳ build agent 开发中（最后一块） |
-| 模拟器 /simulator | ⏳ build agent 开发中 |
+| 患者端 /patient | ✅ agent断连但代码已完成入库，冒烟200，禁用词零命中 |
+| 模拟器 /simulator | ✅ 脚本时间轴+手动滑块+事件日志，冒烟200 |
 | AI接真模型 | ⬜ | 本地降级版已实现（src/lib/ai.ts），DeepSeek key可选接入 |
-| Vercel部署 | ⬜ | CLI未登录；备选：静态导出/GitHub Pages；需用户一键 `npx vercel login` |
+| 部署 | ✅静态导出就绪 / ⬜托管 | out/可直接托管GitHub Pages/Netlify Drop/Vercel任选；待用户选定渠道 |
 | 3分钟视频 | ⬜ | 分镜已备（docs/23），等demo合体后录屏 |
 | 飞书手册v2 | ⚠️ | docx已生成（AIR-FLOW-Knee×Vital作战手册v2-图文版-20260905.docx，5MB）；ego导入对话框不稳+桌面被占用→**留给用户手动导入30秒**：飞书云文档→上传→导入为在线文档→我的文档库→Word→选该文件 |
 
@@ -39,7 +40,7 @@
 | 引擎 src/lib/synth | ✅ | rng/signals/timeline/safety/patients/useSession，build通过 |
 | 落地页+layout | ✅ | 主题+免责声明组件+四入口 |
 | 患者端 /patient | ⏳ build agent 开发中 |
-| 模拟器 /simulator | ⏳ build agent 开发中 |
+| 模拟器 /simulator | ✅ 脚本时间轴+手动滑块+事件日志，冒烟200 |
 | 医生端 /doctor | ⏳ build agent 开发中 |
 | AI大屏 /dashboard | ⏳ build agent 开发中 |
 | AI接真模型 | ⬜ | 本地降级版已规划（src/lib/ai.ts），DeepSeek key待用户确认 |
