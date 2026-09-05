@@ -1,6 +1,6 @@
 <div align="center">
 
-# AIR-FLOW Knee+
+# AIR-FLOW Knee+ · 膝望
 
 **AI rehabilitation companion that brings knee rehab from hospital to home** · Soft Healthcare software loop
 
@@ -44,6 +44,12 @@
 
 <p align="center"><img src="assets/arch.png" width="92%" alt="Architecture"></p>
 
+## 🎬 3-Minute Submission Video (roadshow cut)
+
+**[▶ KneeUp 膝望 — 3-minute submission video (MP4, ~4 MB, zh narration + embedded subtitles)](https://github.com/KINGKAZMAX/airflow-knee-plus/releases/download/v1.0/KneeUp-3min-submission-video.mp4)** · [editable SRT](https://github.com/KINGKAZMAX/airflow-knee-plus/releases/download/v1.0/KneeUp-3min-submission-video.srt) · [release notes](https://github.com/KINGKAZMAX/airflow-knee-plus/releases/tag/v1.0)
+
+Every shot carries an on-screen source label: pre-competition hardware/bench footage vs. hackathon-built software (real session screenshots, synthetic inputs) — disclosed per Vital track transparency rules.
+
 ## ✨ Key Features
 
 - 🌡 **Daily check-in with crisis referral** — pain ≥ 6 / red-flag symptoms surface "please seek medical care promptly" (no medical advice given)
@@ -72,7 +78,7 @@ cd web
 npm install
 npm run dev        # http://localhost:3000
 # production static export (already included in web/out)
-npm run build && npx serve out
+npm run build && npx serve out   # production build → static export in out/
 ```
 
 ## 📁 Repository Structure

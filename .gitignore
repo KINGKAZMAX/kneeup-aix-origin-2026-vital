@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# deps & build artifacts
+node_modules/
+.next/
+out/
+
+# internal strategy handbooks (kept local, not for public release)
+*.docx
+
+# editor / session state
+.zcode/

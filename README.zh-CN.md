@@ -1,6 +1,6 @@
 <div align="center">
 
-# AIR-FLOW Knee+
+# AIR-FLOW Knee+ · 膝望
 
 **让膝康复走出医院、回到家里的 AI 训练伙伴** · Soft Healthcare 软件闭环
 
@@ -43,6 +43,12 @@
 
 <p align="center"><img src="assets/arch.png" width="92%" alt="三端架构"></p>
 
+## 🎬 三分钟提交视频（路演剪辑版）
+
+**[▶ 膝望 KneeUp — 三分钟提交视频（MP4，约 4 MB，中文旁白 + 内嵌字幕）](https://github.com/KINGKAZMAX/airflow-knee-plus/releases/download/v1.0/KneeUp-3min-submission-video.mp4)** · [可编辑 SRT 字幕](https://github.com/KINGKAZMAX/airflow-knee-plus/releases/download/v1.0/KneeUp-3min-submission-video.srt) · [发布说明](https://github.com/KINGKAZMAX/airflow-knee-plus/releases/tag/v1.0)
+
+每个镜头均带画面内来源标签：赛前硬件/台架影像 与 比赛期间构建的软件（真实会话截图、合成输入）按 Vital 赛道透明度要求如实披露。
+
 ## ✨ 核心特性
 
 - 🌡 **打卡即转介**——疼痛 ≥6 或红灯信号触发「建议尽快就医」提示（不提供医疗建议）
@@ -70,7 +76,7 @@
 cd web
 npm install
 npm run dev        # http://localhost:3000
-# 生产静态导出（web/out 已包含）
+# 生产构建：生成 out/ 静态导出（可托管任意静态主机）
 npm run build && npx serve out
 ```
 
