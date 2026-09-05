@@ -106,11 +106,23 @@ npm run build && npx serve out   # production build → static export in out/
 
 ## 🦿 Hardware Background (Pre-competition Research)
 
-The software loop extends our industrial-design research **MENISCUS SHIELD** — an adaptive knee brace concept (silicone air-cells + sEMG + joint-pressure sensing; inflate on flexion for support, deflate at rest; auto blow-off on over-pressure), with a working Arduino prototype (below, full study in `assets/pdf/`). The competition build focuses on the **Soft Healthcare software loop**; hardware remains the roadmap.
-
 <p align="center">
-<img src="assets/pdf/page-4.png" width="46%" alt="Arduino prototype"> <img src="assets/pdf/page-5.png" width="46%" alt="Exploded view & wearing shots">
+<img src="assets/pdf/page-1.png" width="92%" alt="MENISCUS SHIELD — concept & inspiration">
 </p>
+<p align="center">
+<img src="assets/pdf/page-2.png" width="92%" alt="Research — meniscus injury data & treatment options">
+</p>
+<p align="center">
+<img src="assets/pdf/page-3.png" width="92%" alt="Analysis — persona & user journey map">
+</p>
+<p align="center">
+<img src="assets/pdf/page-4.png" width="92%" alt="Arduino working prototype">
+</p>
+<p align="center">
+<img src="assets/pdf/page-5.png" width="92%" alt="Exploded view & wearing shots">
+</p>
+
+The software loop extends our industrial-design research **MENISCUS SHIELD** — an adaptive knee brace concept (silicone air-cells + sEMG + joint-pressure sensing; inflate on flexion for support, deflate at rest; auto blow-off on over-pressure), with a working Arduino prototype (full study pages above, source files in `assets/pdf/`). The competition build focuses on the **Soft Healthcare software loop**; hardware remains the roadmap.
 
 ## ⚖️ Ethics & Compliance Statement
 
@@ -124,7 +136,7 @@ The software loop extends our industrial-design research **MENISCUS SHIELD** —
 
 **自由意志 · Free Will** — AIx Origin Summit 2026, Vital Track, Hong Kong (Cyberport).
 
-Lead: Boyang Wan (Industrial Design, [waffledesign.site](https://waffledesign.site)) · full roster in the submission form.
+Lead: Zhixin Cai (Industrial Design) · full roster in the submission form.
 
 ## 📄 License
 

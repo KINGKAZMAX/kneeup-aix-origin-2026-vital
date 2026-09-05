@@ -105,11 +105,23 @@ npm run build && npx serve out
 
 ## 🦿 硬件背景（赛前研究）
 
-软件闭环延伸自工业设计研究 **MENISCUS SHIELD**——自适应膝关节护具概念（硅胶气囊 + sEMG + 关节腔压感知；屈膝充气支撑、伸直放气复位；超压自动泄气），已有 Arduino 可运行原型（见下图，完整研究在 `assets/pdf/`）。本次参赛主体是 **Soft Healthcare 软件闭环**，硬件为下一步路线图。
-
 <p align="center">
-<img src="assets/pdf/page-4.png" width="46%" alt="Arduino 原型实拍"> <img src="assets/pdf/page-5.png" width="46%" alt="爆炸图与穿戴实拍">
+<img src="assets/pdf/page-1.png" width="92%" alt="MENISCUS SHIELD 概念与灵感来源">
 </p>
+<p align="center">
+<img src="assets/pdf/page-2.png" width="92%" alt="研究——半月板损伤数据与治疗方案对比">
+</p>
+<p align="center">
+<img src="assets/pdf/page-3.png" width="92%" alt="分析——用户画像与徒步用户旅程图">
+</p>
+<p align="center">
+<img src="assets/pdf/page-4.png" width="92%" alt="Arduino 可运行原型实拍">
+</p>
+<p align="center">
+<img src="assets/pdf/page-5.png" width="92%" alt="爆炸图与穿戴实拍">
+</p>
+
+软件闭环延伸自工业设计研究 **MENISCUS SHIELD**——自适应膝关节护具概念（硅胶气囊 + sEMG + 关节腔压感知；屈膝充气支撑、伸直放气复位；超压自动泄气），已有 Arduino 可运行原型（完整研究大图见上方，源文件在 `assets/pdf/`）。本次参赛主体是 **Soft Healthcare 软件闭环**，硬件为下一步路线图。
 
 ## ⚖️ 伦理与合规声明
 
@@ -123,7 +135,7 @@ npm run build && npx serve out
 
 **自由意志 · Free Will** — AIx Origin Summit 2026 · Vital 活域赛道 · 香港（数码港）
 
-队长：万博阳（工业设计，[waffledesign.site](https://waffledesign.site)）· 完整名单见提交表。
+队长：蔡智鑫（工业设计）· 完整名单见提交表。
 
 ## 📄 许可证
 
