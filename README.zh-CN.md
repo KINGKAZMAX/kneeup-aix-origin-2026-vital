@@ -45,7 +45,7 @@
 
 ## 🎬 三分钟提交视频（路演剪辑版）
 
-**[▶ 膝望 Kneeup — 三分钟提交视频（MP4，约 4 MB，中文旁白 + 内嵌字幕）](https://github.com/KINGKAZMAX/kneeup/releases/download/v1.0/Kneeup-3min-submission-video.mp4)** · [可编辑 SRT 字幕](https://github.com/KINGKAZMAX/kneeup/releases/download/v1.0/Kneeup-3min-submission-video.srt) · [发布说明](https://github.com/KINGKAZMAX/kneeup/releases/tag/v1.0)
+**[▶ 膝望 Kneeup — 三分钟提交视频（MP4，约 4 MB，中文旁白 + 内嵌字幕）](https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/Kneeup-3min-submission-video.mp4)** · [可编辑 SRT 字幕](https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/Kneeup-3min-submission-video.srt) · [发布说明](https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/tag/v1.0)
 
 每个镜头均带画面内来源标签：赛前硬件/台架影像 与 比赛期间构建的软件（真实会话截图、合成输入）按 Vital 赛道透明度要求如实披露。
 

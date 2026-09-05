@@ -46,7 +46,7 @@
 
 ## 🎬 3-Minute Submission Video (roadshow cut)
 
-**[▶ Kneeup 膝望 — 3-minute submission video (MP4, ~4 MB, zh narration + embedded subtitles)](https://github.com/KINGKAZMAX/kneeup/releases/download/v1.0/Kneeup-3min-submission-video.mp4)** · [editable SRT](https://github.com/KINGKAZMAX/kneeup/releases/download/v1.0/Kneeup-3min-submission-video.srt) · [release notes](https://github.com/KINGKAZMAX/kneeup/releases/tag/v1.0)
+**[▶ Kneeup 膝望 — 3-minute submission video (MP4, ~4 MB, zh narration + embedded subtitles)](https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/Kneeup-3min-submission-video.mp4)** · [editable SRT](https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/Kneeup-3min-submission-video.srt) · [release notes](https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/tag/v1.0)
 
 Every shot carries an on-screen source label: pre-competition hardware/bench footage vs. hackathon-built software (real session screenshots, synthetic inputs) — disclosed per Vital track transparency rules.
 
