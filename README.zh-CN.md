@@ -27,6 +27,10 @@
 
 ## 🎬 视频矩阵
 
+<p align="center">
+<img src="assets/demo_preview.gif" width="92%" alt="30 秒演示预览 GIF — 点开下方完整视频">
+</p>
+
 | 类型 | 视频 | 时长 | 内容 |
 |---|---|---|---|
 | **展示视频 · 路演** | [▶ 三分钟提交视频（中文旁白 + 内嵌字幕）](https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/Kneeup-3min-submission-video.mp4) · [SRT](https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/Kneeup-3min-submission-video.srt) | 180 秒 | 完整叙事：痛点 → 产品闭环 → 软件实录（同一会话实际界面）→ 试点计划；每镜头带画面内来源标签，按 Vital 透明度要求披露 |

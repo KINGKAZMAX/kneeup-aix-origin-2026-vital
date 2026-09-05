@@ -28,6 +28,10 @@
 
 ## 🎬 Video Gallery
 
+<p align="center">
+<img src="assets/demo_preview.gif" width="92%" alt="30-second demo preview GIF — full videos below">
+</p>
+
 | Type | Video | Length | What it shows |
 |---|---|---|---|
 | **展示视频 · Pitch** | [▶ 3-min submission video (zh narration + embedded subtitles)](https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/Kneeup-3min-submission-video.mp4) · [SRT](https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/Kneeup-3min-submission-video.srt) | 180 s | Full story: problem → product loop → software walkthrough (real session captures) → pilot plan. Every shot carries an on-screen source label per Vital transparency rules |
