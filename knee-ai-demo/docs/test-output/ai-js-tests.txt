@@ -1,0 +1,32 @@
+✔ legacy summary preserves negative values, reference threshold and absent baseline/A5 (0.491167ms)
+✔ telemetry duplicate seq, invalid and wrong-source points do not inflate summary (0.101167ms)
+✔ fresh status frame cannot freshen an old sample or cached point (0.332708ms)
+✔ insufficient count/span, no source and missing telemetry reject analysis (0.051084ms)
+✔ without consent/config or sufficient data, no HTTP call (0.192709ms)
+✔ valid mocked response binds exact window, source, history and mode (0.787875ms)
+✔ late mock response is discarded after reconnect (0.146459ms)
+✔ late mock response is discarded after source (0.099959ms)
+✔ late mock response is discarded after protocol (0.073875ms)
+✔ late mock response is discarded after ended (0.219291ms)
+✔ late mock response is discarded after revoke (0.059916ms)
+✔ late mock response is discarded after stale (0.049708ms)
+✔ wrong binding, unknown suggestion, wrong evidence or mode cannot be accepted (0.594375ms)
+✔ network failure creates explicit rule history; concurrent clicks send once (0.165583ms)
+✔ a successful window expires even if fresh samples continue (0.064166ms)
+✔ original firmware: signed floating numbers, CRLF, no units inferred (0.583333ms)
+✔ rejects NaN, Infinity, trailing junk, percent, JSON in place of a number (0.059083ms)
+✔ valid telemetry preserves LOW during a five-second-old sample (0.062917ms)
+✔ invalid v1 JSON fields are rejected rather than interpreted (0.082042ms)
+✔ explicit firmware boot marker (0.041375ms)
+✔ millis rollover age is unsigned (0.300458ms)
+✔ serial chunk splitting and CRLF across read boundaries (0.101209ms)
+✔ oversized lines are dropped until newline and parser recovers (0.043042ms)
+✔ UTF8 input is not treated as data (0.067167ms)
+ℹ tests 24
+ℹ suites 0
+ℹ pass 24
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 33.136667

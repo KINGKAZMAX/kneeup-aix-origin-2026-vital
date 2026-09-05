@@ -1,0 +1,28 @@
+test_configuration_explicit_and_status_secret_free (__main__.Adapter.test_configuration_explicit_and_status_secret_free) ... ok
+test_consent_config_binding_and_unconfigured_no_call (__main__.Adapter.test_consent_config_binding_and_unconfigured_no_call) ... ok
+test_global_concurrency_and_cooldown (__main__.Adapter.test_global_concurrency_and_cooldown) ... ok
+test_malformed_and_oversized_upstream (__main__.Adapter.test_malformed_and_oversized_upstream) ... ok
+test_mock_transport_binds_metadata_and_sends_only_summary (__main__.Adapter.test_mock_transport_binds_metadata_and_sends_only_summary) ... ok
+test_response_binds_session_and_old_model_schema_remains_compatible (__main__.Adapter.test_response_binds_session_and_old_model_schema_remains_compatible) ... ok
+test_timeouts_disconnect_and_http_failures_are_sanitized (__main__.Adapter.test_timeouts_disconnect_and_http_failures_are_sanitized) ... ok
+test_camera_assets_keep_exact_allowlist_and_deny_symlink_parent (__main__.HTTP.test_camera_assets_keep_exact_allowlist_and_deny_symlink_parent) ... ok
+test_existing_secret_files_and_static_symlinks_are_denied (__main__.HTTP.test_existing_secret_files_and_static_symlinks_are_denied) ... ok
+test_origin_csrf_and_content_checks (__main__.HTTP.test_origin_csrf_and_content_checks) ... ok
+test_post_mock_result_and_error_redaction (__main__.HTTP.test_post_mock_result_and_error_redaction) ... ok
+test_static_whitelist_and_encoded_traversal (__main__.HTTP.test_static_whitelist_and_encoded_traversal) ... ok
+test_status_no_secret_and_host_guard (__main__.HTTP.test_status_no_secret_and_host_guard) ... ok
+test_engineering_gates (__main__.Validation.test_engineering_gates) ... ok
+test_event_references_and_review_questions_are_validated (__main__.Validation.test_event_references_and_review_questions_are_validated) ... ok
+test_html_commands_unsupported_claims_and_uncited_numbers (__main__.Validation.test_html_commands_unsupported_claims_and_uncited_numbers) ... ok
+test_json_duplicates_nonfinite (__main__.Validation.test_json_duplicates_nonfinite) ... ok
+test_numeric_and_interval_inconsistency (__main__.Validation.test_numeric_and_interval_inconsistency) ... ok
+test_schema_range_missing_and_unknown_fields (__main__.Validation.test_schema_range_missing_and_unknown_fields) ... ok
+test_session_context_accepts_only_bounded_nonidentifying_events (__main__.Validation.test_session_context_accepts_only_bounded_nonidentifying_events) ... ok
+test_unknown_actions_metadata_and_excess_text (__main__.Validation.test_unknown_actions_metadata_and_excess_text) ... ok
+test_valid_output_and_exact_evidence (__main__.Validation.test_valid_output_and_exact_evidence) ... ok
+test_valid_signed_legacy_and_telemetry (__main__.Validation.test_valid_signed_legacy_and_telemetry) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.959s
+
+OK

@@ -1,0 +1,32 @@
+✔ legacy summary preserves negative values, reference threshold and absent baseline/A5 (3.187042ms)
+✔ telemetry duplicate seq, invalid and wrong-source points do not inflate summary (0.968792ms)
+✔ fresh status frame cannot freshen an old sample or cached point (0.574667ms)
+✔ insufficient count/span, no source and missing telemetry reject analysis (0.323875ms)
+✔ without consent/config or sufficient data, no HTTP call (0.727625ms)
+✔ valid mocked response binds exact window, source, history and mode (5.918ms)
+✔ late mock response is discarded after reconnect (0.617375ms)
+✔ late mock response is discarded after source (0.455167ms)
+✔ late mock response is discarded after protocol (0.226542ms)
+✔ late mock response is discarded after ended (0.280792ms)
+✔ late mock response is discarded after revoke (0.241ms)
+✔ late mock response is discarded after stale (0.332458ms)
+✔ wrong binding, unknown suggestion, wrong evidence or mode cannot be accepted (2.764167ms)
+✔ network failure creates explicit rule history; concurrent clicks send once (0.987542ms)
+✔ a successful window expires even if fresh samples continue (0.921209ms)
+✔ session context clips pre-session samples and excludes private or unrelated events (1.258792ms)
+✔ late response cannot move from an ended session into a new session (0.33775ms)
+✔ session identity and event references must be exact and questions contain no commands (0.386459ms)
+✔ a selected session from another generation or source cannot claim the current stream (0.329708ms)
+✔ finished session excludes future points and has a short analysis-start lifetime (0.193417ms)
+✔ client rejects uncited question numbers and non-allowlisted evidence paths (0.235041ms)
+✔ finished telemetry session excludes later threshold, A5 and GPIO state (0.367292ms)
+✔ finished session uses its recorded points and only GPIO received within the record (0.234375ms)
+✔ session missing recorded telemetry metadata cannot use future snapshot as evidence (0.168708ms)
+ℹ tests 24
+ℹ suites 0
+ℹ pass 24
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 174.926375

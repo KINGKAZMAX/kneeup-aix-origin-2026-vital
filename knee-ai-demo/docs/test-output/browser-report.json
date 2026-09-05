@@ -1,0 +1,32 @@
+{
+  "scope": "Software-only browser tests with an injected mock serial stream. NOT tested with an Arduino or pump.",
+  "isolated_dom_harness": false,
+  "additional_mocks_if_isolated": [],
+  "passed": 23,
+  "checks": [
+    "Original landing page is preserved and explicitly labelled concept data",
+    "Initial state has no generated real measurements",
+    "Explicit demo is clearly labelled synthetic",
+    "CSV is downloadable and retains synthetic source label",
+    "Mock serial port opens at 115200",
+    "Partial data line does not update measurements",
+    "Legacy numeric firmware is accepted without fabricated GPIO",
+    "Malformed lines are counted and not rendered as values",
+    "Stale data is hidden and recording ends, without demo fallback",
+    "Read failure closes unlocked stream and leaves offline UI",
+    "Reconnect clears previous measurements and statistics",
+    "Telemetry displays commanded LOW, not an inferred pump or pressure",
+    "Duplicate sample in a GPIO/status frame does not add chart sample",
+    "A confirmed HIGH to LOW edge is counted once",
+    "Firmware reboot clears live data and ends current recording",
+    "Manual disconnect releases read lock before close",
+    "Production transport never requested serial writable stream",
+    "Port chooser cancellation returns a usable disconnected UI",
+    "Records keep USB and synthetic sessions separate",
+    "Caregiver overview is still explicitly example data",
+    "Mobile hardware page does not overflow horizontally",
+    "Browser without Web Serial shows actionable fallback message",
+    "No uncaught JavaScript errors across routes and stream lifecycle"
+  ],
+  "page_errors": []
+}

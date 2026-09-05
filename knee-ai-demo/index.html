@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>膝望 · 继续走自己想走的路</title>
+  <link rel="stylesheet" href="tokens.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="hardware.css" />
+  <link rel="stylesheet" href="roadshow.css" />
+  <link rel="stylesheet" href="camera.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <button class="brand" data-nav="overview" aria-label="返回首页">
+        <span class="brand-mark"><span></span><span></span><span></span></span>
+        <span class="brand-copy"><b>膝望 · AIR-FLOW Knee+</b><small>继续走自己想走的路</small></span>
+      </button>
+
+      <div class="role-switch" aria-label="切换端">
+        <button class="role-btn active" data-role="patient">用户端</button>
+        <button class="role-btn" data-role="therapist">专业端</button>
+      </div>
+
+      <nav class="desktop-nav" id="desktopNav"></nav>
+      <button class="status-pill" id="globalDeviceStatus" data-source="offline" data-nav="hardware"><span class="status-dot"></span><span id="globalStatusText">实物未连接</span></button>
+    </header>
+
+    <div class="usb-strip"><span id="connectionStripText">实物未连接 · 同一电脑共享记录</span><button data-nav="hardware">开始记录 →</button></div>
+    <main id="app"></main>
+
+    <footer>
+      <span>膝望 · AIR-FLOW Knee+ · 行动辅助原型</span>
+      <span>日常行动是入口，专业随访是延伸，徒步是希望保留的生活。</span>
+    </footer>
+  </div>
+
+  <template id="braceArt">
+    <div class="brace-art" aria-label="AIR-FLOW Knee+ 护膝概念图">
+      <div class="brace-glow"></div>
+      <div class="brace-body"></div>
+      <div class="brace-ring ring-1"></div>
+      <div class="brace-ring ring-2"></div>
+      <div class="brace-core"></div>
+      <div class="strap strap-top"></div>
+      <div class="strap strap-bottom"></div>
+      <div class="sensor sensor-a"></div>
+      <div class="sensor sensor-b"></div>
+    </div>
+  </template>
+
+  <script src="serial-protocol.js"></script>
+  <script src="serial-device.js"></script>
+  <script src="session-store.js"></script>
+  <script src="live-ui.js"></script>
+  <script src="ai-observer.js"></script>
+  <script src="ai-ui.js"></script>
+  <script src="roadshow-ui.js"></script>
+  <script src="camera-observer.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

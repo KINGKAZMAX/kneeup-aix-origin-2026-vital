@@ -1,0 +1,32 @@
+{
+  "date": "2026-09-05",
+  "scope": "Local browser software rehearsal with simulated EMG, local replay and unconfigured external AI; excludes real USB/model/physical response",
+  "runs": [
+    {
+      "round": 1,
+      "sessionId": "session-1788598269223-1",
+      "elapsedMs": 34270,
+      "sources": "simulated + replay",
+      "model": "unconfigured",
+      "patientConfirmed": true
+    },
+    {
+      "round": 2,
+      "sessionId": "session-1788598356411-2",
+      "elapsedMs": 28294,
+      "sources": "simulated + replay",
+      "model": "unconfigured",
+      "patientConfirmed": true,
+      "initialNoteEmpty": true
+    },
+    {
+      "round": 3,
+      "sessionId": "session-1788598384741-3",
+      "elapsedMs": 51350,
+      "sources": "simulated + replay",
+      "model": "unconfigured",
+      "patientConfirmed": true
+    }
+  ],
+  "visualModel": "Loaded local MediaPipe model successfully; existing video lacks complete hip-knee-ankle, angle null, replay labelled"
+}

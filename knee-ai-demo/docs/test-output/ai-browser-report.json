@@ -1,0 +1,26 @@
+{
+  "scope": "Synthetic demo + MOCK_NOT_REAL local upstream, production HTTP adapter. NOT real provider or USB verification.",
+  "passed": 19,
+  "checks": [
+    "AI card preserves original EMG, firmware rule and A5 cards",
+    "No data or consent means no model request",
+    "Sufficient synthetic input still requires consent",
+    "Curve samples keep arriving while local HTTP model request is pending",
+    "MOCK upstream via production adapter is visibly tied to synthetic source and model label",
+    "Input, evidence, generation time and no hardware application shown",
+    "Untrusted model text renders as literal text nodes",
+    "Only whitelisted summary leaves browser; no context or raw samples",
+    "Full session JSON includes matching AI input/result and separate samples",
+    "Explicit rule fallback on invalid",
+    "Explicit rule fallback on html",
+    "Explicit rule fallback on auth",
+    "Revocation discards pending result and removes current advice",
+    "Route changes keep one observer and one call per click",
+    "Old sample invalidates result despite otherwise live connection",
+    "Stopping source revokes consent",
+    "AI card and raw JSON do not overflow mobile viewport",
+    "Unconfigured server is explicit and never fabricates model success",
+    "No uncaught browser JS errors"
+  ],
+  "page_errors": []
+}

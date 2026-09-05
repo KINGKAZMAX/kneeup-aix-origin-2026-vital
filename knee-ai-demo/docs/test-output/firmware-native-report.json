@@ -1,0 +1,15 @@
+{
+  "scope": "Host g++ with mocked Arduino functions, delay, serial and ADC. NOT an AVR/Arduino-core build or physical test.",
+  "checks": [
+    "C++ syntax under host stubs",
+    "70 loop logical GPIO/delay traces match original excluding documented setup difference",
+    "Filter() text is unchanged",
+    "Both HIGH and LOW paths observed",
+    "LOW retained through original rest delay",
+    "Control-only packets retain sample sequence"
+  ],
+  "loops": 70,
+  "telemetry_frames": 80,
+  "unique_samples": 70,
+  "passed": 6
+}

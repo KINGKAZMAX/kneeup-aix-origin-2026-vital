@@ -1,0 +1,58 @@
+{
+  "authority": "/Users/mekzenx2/Documents/AIx Origin 冠军攻略/项目二/design/tokens.css",
+  "tokensCopiedExactly": true,
+  "tokensSha256": "37df62867a3f5cd007b798694afd5993a92171ee23507da0edfae9e784a86b30",
+  "runtimeFilesAudited": [
+    "styles.css",
+    "hardware.css",
+    "roadshow.css",
+    "camera.css",
+    "app.js",
+    "live-ui.js",
+    "ai-ui.js",
+    "roadshow-ui.js",
+    "camera-observer.js",
+    "index.html"
+  ],
+  "outOfPaletteHex": [],
+  "pageRadialGradients": 1,
+  "literalPaletteByFile": {
+    "styles.css": [],
+    "hardware.css": [],
+    "roadshow.css": [],
+    "camera.css": [],
+    "app.js": [
+      "#2B2D33",
+      "#3B3E45",
+      "#4376EB"
+    ],
+    "live-ui.js": [
+      "#232428",
+      "#4376EB",
+      "#8B909A",
+      "#FFFFFF"
+    ],
+    "ai-ui.js": [],
+    "roadshow-ui.js": [],
+    "camera-observer.js": [
+      "#4376EB",
+      "#FFFFFF"
+    ],
+    "index.html": []
+  },
+  "statusColorSelectors": [
+    ".status-dot",
+    ".badge.good",
+    ".badge.warn"
+  ],
+  "chartSeries": "#4376EB; reference #FFFFFF dashed; axes #8B909A; grid #232428",
+  "scope": "Static palette and one rendered desktop page checked. Photo/video content retains source colors. Pixel area ratios across all viewport sizes were not quantified.",
+  "renderedDOM": {
+    "canvas": "#0B0C0E",
+    "card": "#1A1B1F",
+    "primary": "#2144B2",
+    "primaryText": "#FFFFFF",
+    "bodyText": "#C7CAD1",
+    "method": "getComputedStyle of actual local browser page on 2026-09-05"
+  }
+}
