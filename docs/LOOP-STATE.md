@@ -1,8 +1,34 @@
 # LOOP-STATE · 巡检状态
 
 ## 最近巡检
-- 时间：2026-09-05 上午（主会话手动初始化）
-- 距提交截止：约26小时
+- 时间：2026-09-05 12:25（主会话）
+- 距提交截止：约23.5小时
+
+## 状态表
+| 项 | 状态 | 说明 |
+|---|---|---|
+| 情报 docs/10-17 | ✅ 8/8 | 全部溯源核实；排雷"下山3-5倍/护具降30%"两个无出处数据 |
+| 材料 docs/20-26 | ✅ 7/7 | 零禁用词自查通过 |
+| 提交模板 docs/30 | ✅ | 待填URL与成员名单 |
+| 引擎 src/lib/synth | ✅ | 10Hz信号+SAFE/RISK/OVER状态机+3患者档案，种子可复现 |
+| 落地页+layout | ✅ | 主题+免责声明+四入口 |
+| 医生端 /doctor | ✅ | 列表/AI摘要/计划编辑器/下发toast，冒烟200 |
+| AI大屏 /dashboard | ✅ | 1080p一屏：风险牌/趋势图/digest轮播/AI LAYER ACTIVE |
+| 患者端 /patient | ⏳ build agent 开发中（最后一块） |
+| 模拟器 /simulator | ⏳ build agent 开发中 |
+| AI接真模型 | ⬜ | 本地降级版已实现（src/lib/ai.ts），DeepSeek key可选接入 |
+| Vercel部署 | ⬜ | CLI未登录；备选：静态导出/GitHub Pages；需用户一键 `npx vercel login` |
+| 3分钟视频 | ⬜ | 分镜已备（docs/23），等demo合体后录屏 |
+| 飞书手册v2 | ⚠️ | docx已生成（AIR-FLOW-Knee×Vital作战手册v2-图文版-20260905.docx，5MB）；ego导入对话框不稳+桌面被占用→**留给用户手动导入30秒**：飞书云文档→上传→导入为在线文档→我的文档库→Word→选该文件 |
+
+## 并行会话协同（重要）
+- 另一条ZCode会话在推进同项目互补线：《MENISCUS-SHIELD作战手册》已入飞书（wiki/POgtwaH9vixo0MkktiCcUHsRnkc），浏览器Knee-Brain实时动作追踪demo（localhost:9377，MediaPipe on-device），并检测到**实体M5硬件（ESP32-S3-PICO）**
+- 分工建议：我方=三端Soft Healthcare闭环+合成数据安全状态机（赛道合规强）；对方=摄像头实时动作+真硬件（演示冲击强）——合并叙事：AIR-FLOW Knee+ 三端闭环 + Knee-Brain动作AI + M5真硬件三重演示
+
+## 待主会话处理
+- 患者端+模拟器合体 → 全站build → 90秒闭环走查 → 禁用词grep
+- 部署（需用户vercel login）→ QR → 录屏
+- 飞书导入（用户手动30秒或桌面空闲重试）
 
 ## 状态表
 | 项 | 状态 | 说明 |
