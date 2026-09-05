@@ -12,6 +12,8 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md)
 
+**[🌐 在线 Demo（GitHub Pages）](https://kingkazmax.github.io/kneeup-aix-origin-2026-vital/)** · **[🎬 三分钟视频](https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/Kneeup-3min-submission-video.mp4)** · **[📄 Checkpoint 进展说明](docs/31-Checkpoint进展说明.md)**
+
 </div>
 
 ---
@@ -21,7 +23,17 @@
 
 **问题**：全球膝骨关节炎人群 3.65 亿（WHO）；在香港，公立医院膝关节置换轮候中位最长 **72 个月**（立法会 2022），约 **50%** 的居家锻炼计划半途而废（Argent 2018）。康复的瓶颈不在院内，而在家里每一个无人监督的日子。
 
-**Kneeup 膝望**用三端 Web 闭环 + AI 数据层补上这块缺口：患者每日打卡、跟着实时安全反馈训练；医生看 **AI 生成的周报摘要**（不必翻原始数据）并调整训练计划；设备模拟器实时推流合成 sEMG / 关节腔压 / 屈膝角度信号，并复现赛前硬件原型（**MENISCUS SHIELD**：Arduino + 气囊自适应护膝）的安全状态机。**去掉 AI 层，闭环即不成立**——个性化建议、代偿趋势识别、风险分级、医生摘要全部由 AI 驱动。
+**Kneeup 膝望**用多端 Web 闭环 + AI 数据层补上这块缺口：患者每日打卡、跟着实时安全反馈训练；医生看 **AI 生成的周报摘要**（不必翻原始数据）并调整训练计划；设备模拟器实时推流合成 sEMG / 关节腔压 / 屈膝角度信号，并复现赛前硬件原型（**MENISCUS SHIELD**：Arduino + 气囊自适应护膝）的安全状态机。**去掉 AI 层，闭环即不成立**——个性化建议、代偿趋势识别、风险分级、医生摘要全部由 AI 驱动。
+
+## 🎬 视频矩阵
+
+| 类型 | 视频 | 时长 | 内容 |
+|---|---|---|---|
+| **展示视频 · 路演** | [▶ 三分钟提交视频（中文旁白 + 内嵌字幕）](https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/Kneeup-3min-submission-video.mp4) · [SRT](https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/Kneeup-3min-submission-video.srt) | 180 秒 | 完整叙事：痛点 → 产品闭环 → 软件实录（同一会话实际界面）→ 试点计划；每镜头带画面内来源标签，按 Vital 透明度要求披露 |
+| **Demo 视频 · 原型讲解** | [▶ MENISCUS SHIELD 原型讲解](https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/Kneeup-prototype-explanation-70s.mp4) | 70 秒 | 赛前硬件原型讲解（已声明的既有工作） |
+| **实验视频 · 台架 A** | [▶ sEMG 肌电电极 + 控制器 + 泵台架](https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/Kneeup-bench-semg-pump-27s.mp4) | 27 秒 | 真实肌电传感链路（腿部电极）+ 泵/控制器台架影像 |
+| **实验视频 · 台架 B** | [▶ 硅胶气囊样件](https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/Kneeup-aircell-samples-179s.mp4) | 179 秒 | 气囊样件探索影像（材料/结构证据，不作功效主张） |
+| **预览 · 在线 Demo** | [🌐 GitHub Pages 四端](https://kingkazmax.github.io/kneeup-aix-origin-2026-vital/)（`/patient` `/doctor` `/simulator` `/dashboard`） | — | 任意浏览器可运行、无需登录；全部合成数据 |
 
 ## 🖥 在线演示
 
@@ -52,11 +64,16 @@
 
 > 截图来自 kneeup-web 旗舰演示站（vanilla ES-Modules，three.js / MediaPipe / Draco 全部 vendor 入库，断网可跑），按本地素材库与碳黑×钴蓝 UI 规范重制；数据均为 SIMULATED 标注。
 
-## 🎬 三分钟提交视频（路演剪辑版）
+## ✅ Checkpoint 证据对位表（按官方评审维度）
 
-**[▶ 膝望 Kneeup — 三分钟提交视频（MP4，约 4 MB，中文旁白 + 内嵌字幕）](https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/Kneeup-3min-submission-video.mp4)** · [可编辑 SRT 字幕](https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/Kneeup-3min-submission-video.srt) · [发布说明](https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/tag/v1.0)
+| 评审维度 | 本仓库可核验证据 |
+|---|---|
+| **项目进展（40 分）** | 核心闭环已完成且可演示：Pages 四端在线 + 交付演示应用（`knee-ai-demo/`）；自动化测试全绿——Node **55/55**、后端 **23/23**、固件主机替身 **6/6**（70 轮逐帧比较）；git 历史自 2026-09-04 起按里程碑提交；剩余工作边界见[进展说明](docs/31-Checkpoint进展说明.md) §二 |
+| **技术路线可行性（20 分）** | 架构与关键选型有据（`docs/` A9/B9）；关键假设已验证：串口双协议解析（legacy/v1、去重、超时）、离线姿态估计（MediaPipe 全 vendor，髋膝踝不全时角度保持 null 不编造）、种子化确定性合成引擎；风险清单 + 三层降级预案（LLM 断网→模板；姿态失效→无摄像头模式；终极兜底→预录视频） |
+| **团队执行力（20 分）** | 分工与交接留痕（`knee-ai-demo/CODEX_HANDOFF.md`、`docs/LOOP-STATE.md`）；每小时迭代 loop 逐轮记录；问题当日暴露当日闭环（品牌/仓库改名连锁失效一次巡检内修复）；决策日志见 `v2/迭代日志.md` |
+| **问题与场景清晰度（20 分）** | 目标用户与情境具体：60–75 岁仍能自主行动人群的居家训练日；痛点证据全部带出处（WHO 3.65 亿、香港 72 个月轮候、约 50% 居家计划放弃）；现有替代方案已对标（`docs/12-竞品与对标.md`）；价值假设配套定义好的四周社区试点验证计划（记录完整度/审阅耗时/使用负担/继续意愿） |
 
-每个镜头均带画面内来源标签：赛前硬件/台架影像 与 比赛期间构建的软件（真实会话截图、合成输入）按 Vital 赛道透明度要求如实披露。
+完整叙事：**[Checkpoint 进展说明](docs/31-Checkpoint进展说明.md)**（已完成 / 剩余及计划 / 技术难点）。
 
 ## ✨ 核心特性
 
@@ -89,6 +106,13 @@ npm run dev        # http://localhost:3000
 npm run build && npx serve out
 ```
 
+交付演示应用（USB 只读观察 + 本地姿态估计 + AI 观察层 + 同机专业复核）：
+
+```bash
+cd knee-ai-demo
+python3 serve.py   # http://localhost:8000
+```
+
 ## 📁 仓库结构
 
 ```
@@ -96,32 +120,38 @@ npm run build && npx serve out
 │   ├── src/app/          # /patient /doctor /simulator /dashboard 四端
 │   ├── src/lib/synth/    # 确定性合成信号引擎 + 安全状态机
 │   └── out/              # 静态导出（可托管任意静态主机）
+├── knee-ai-demo/         # 交付演示应用（serve.py；测试 55/55 node + 23/23 后端 + 6/6 固件替身）
+│   ├── firmware/         # 遥测固件 + 原始参考程序
+│   └── vision-vendor/    # MediaPipe Tasks Vision，vendor 入库离线可跑
 ├── docs/                 # 情报、讲稿、合规包（中文）
 │   ├── 00-情报库v2.md     # 唯一事实源
 │   ├── 15-合规文案包.md   # 免责声明与禁用词包
-│   └── 30-提交说明与诚信自查.md
+│   ├── 30-提交说明与诚信自查.md
+│   └── 31-Checkpoint进展说明.md
 └── assets/               # 赛前硬件研究（MENISCUS SHIELD）+ 演示截图
 ```
 
 ## 🦿 硬件背景（赛前研究）
 
 <p align="center">
-<img src="assets/pdf/page-1.png" width="92%" alt="MENISCUS SHIELD 概念与灵感来源">
+<img src="assets/pdf/page-1.png" width="92%" alt="MENISCUS SHIELD 概念与灵感">
 </p>
 <p align="center">
-<img src="assets/pdf/page-2.png" width="92%" alt="研究——半月板损伤数据与治疗方案对比">
+<img src="assets/pdf/page-2.png" width="92%" alt="研究 · 半月板损伤数据与治疗方式">
 </p>
 <p align="center">
-<img src="assets/pdf/page-3.png" width="92%" alt="分析——用户画像与徒步用户旅程图">
+<img src="assets/pdf/page-3.png" width="92%" alt="分析 · Persona 与用户旅程图">
 </p>
 <p align="center">
-<img src="assets/pdf/page-4.png" width="92%" alt="Arduino 可运行原型实拍">
+<img src="assets/pdf/page-4.png" width="92%" alt="Arduino 可运行原型">
 </p>
 <p align="center">
 <img src="assets/pdf/page-5.png" width="92%" alt="爆炸图与穿戴实拍">
 </p>
 
-软件闭环延伸自工业设计研究 **MENISCUS SHIELD**——自适应膝关节护具概念（硅胶气囊 + sEMG + 关节腔压感知；屈膝充气支撑、伸直放气复位；超压自动泄气），已有 Arduino 可运行原型（完整研究大图见上方，源文件在 `assets/pdf/`）。本次参赛主体是 **Soft Healthcare 软件闭环**，硬件为下一步路线图。
+软件闭环延伸自工业设计研究 **MENISCUS SHIELD**——自适应膝关节护具概念（硅胶气囊 + sEMG + 关节腔压感知；屈膝充气支撑、伸直放气复位；超压自动泄气），已有 Arduino 可运行原型（完整研究页见上方，源文件在 `assets/pdf/`）。本次参赛主体是 **Soft Healthcare 软件闭环**，硬件为下一步路线图。
+
+台架影像：[sEMG + 泵台架（27 秒）](https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/Kneeup-bench-semg-pump-27s.mp4) · [气囊样件（179 秒）](https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/Kneeup-aircell-samples-179s.mp4) · [原型讲解（70 秒）](https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/Kneeup-prototype-explanation-70s.mp4)
 
 ## ⚖️ 伦理与合规声明
 
@@ -129,7 +159,7 @@ npm run build && npx serve out
 - 每页常驻显著免责声明（中英）；危机信号转介「尽快就医」。
 - **全部数据为合成数据**——3 个虚构患者档案、种子化生成器、零真实患者数据（页脚已注明）。
 - 最少收集原则：演示状态仅存于浏览器。
-- 诚信说明：赛前研究 = 硬件概念与设计研究（已注明）；`web/` 全部为比赛期间开发（见 git 历史）。
+- 诚信说明：赛前研究 = 硬件概念与设计研究（已注明）；`web/` 与 `knee-ai-demo/` 全部为比赛期间开发（见 git 历史）。
 
 ## 🏆 团队
 

@@ -20,7 +20,6 @@ const BRACE = "#1A1B1F";
 const GHOST = "#8B909A";
 
 const LEG_X = 0.11;
-const KNEE_POS = new THREE.Vector3(LEG_X, 0.52, 0);
 
 type SegId = "torso" | "pelvis" | "thighR" | "thighL" | "calfR" | "calfL" | "footR" | "footL";
 
@@ -251,15 +250,19 @@ function Body3DScene({ selected, onSelect, onStats, onError, modelUrl }: Props) 
         if (size0.x > size0.y && size0.x >= size0.z) model.rotation.z = Math.PI / 2;
         else if (size0.z > size0.y) model.rotation.x = -Math.PI / 2;
         model.updateMatrixWorld(true);
-        // Box3 量尺寸 → 居中缩放，护具高度≈膝上下各一段（与小腿/大腿比例协调），对位右腿膝部
+        // Box3 量尺寸 → 居中缩放：模型为整条腿（脚底→髋），按幽灵右腿比例对位——
+        // 高度缩放到脚底→髋（0.96），脚底贴地、水平居中到右腿轴线，膝部自然落在膝热点高度
         const fitted = new THREE.Group();
         fitted.add(model);
         const box = new THREE.Box3().setFromObject(fitted);
         const size = box.getSize(new THREE.Vector3());
         const center = box.getCenter(new THREE.Vector3());
-        const s = 0.5 / size.y;
-        fitted.scale.setScalar(s);
-        fitted.position.copy(KNEE_POS).addScaledVector(center, -s);
+        const s = 0.96 / size.y;
+        const place = (g: THREE.Group, k: number) => {
+          g.scale.setScalar(k);
+          g.position.set(LEG_X - center.x * k, -box.min.y * k, -center.z * k);
+        };
+        place(fitted, s);
         // 轮廓壳：BackSide 放大 1.02 + emissive 钴蓝
         const shellMat = new THREE.MeshStandardMaterial({
           color: "#000000",
@@ -274,9 +277,7 @@ function Body3DScene({ selected, onSelect, onStats, onError, modelUrl }: Props) 
           const mesh = o as THREE.Mesh;
           if (mesh.isMesh) mesh.material = shellMat;
         });
-        const s2 = s * 1.02;
-        shell.scale.setScalar(s2);
-        shell.position.copy(KNEE_POS).addScaledVector(center, -s2);
+        place(shell, s * 1.02);
         assembly.add(shell);
         assembly.add(fitted);
         loaded = true;
@@ -322,15 +323,17 @@ function Body3DScene({ selected, onSelect, onStats, onError, modelUrl }: Props) 
     });
     ro.observe(mount);
 
-    // —— 主循环：自转 + 引线投影 + FPS/面数统计 ——
-    const clock = new THREE.Clock();
+    // —— 主循环：自转 + 引线投影 + FPS/面数统计（performance.now 手动计时，避免 THREE.Clock 弃用告警） ——
+    let prevT = performance.now();
     const vStart = new THREE.Vector3();
     const vEnd = new THREE.Vector3();
     const outward = new THREE.Vector3();
     let frames = 0;
-    let lastStat = performance.now();
+    let lastStat = prevT;
     renderer.setAnimationLoop(() => {
-      const dt = clock.getDelta();
+      const nowT = performance.now();
+      const dt = Math.min(0.05, (nowT - prevT) / 1000);
+      prevT = nowT;
       assembly.rotation.y += dt * 0.3;
       controls.update();
 

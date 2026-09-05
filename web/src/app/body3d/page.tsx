@@ -112,8 +112,8 @@ export default function Body3DPage() {
             模拟演示 · SIMULATED
           </div>
 
-          {/* 底部：操作提示 + 一行免责 */}
-          <div className="pointer-events-none absolute inset-x-0 bottom-3 z-20 flex flex-col items-center gap-1.5 px-4 text-center">
+          {/* 底部：操作提示 + 一行免责（抬升避开全局 sticky Disclaimer 条） */}
+          <div className="pointer-events-none absolute inset-x-0 bottom-12 z-20 flex flex-col items-center gap-1.5 px-4 text-center">
             <div className="rounded-full border border-white/10 bg-carbon-850/85 px-4 py-1.5 text-[11px] text-ink-secondary backdrop-blur">
               拖动旋转 · 双指缩放 · 点击身体部位
             </div>
