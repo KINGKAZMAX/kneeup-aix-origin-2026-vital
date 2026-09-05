@@ -1,6 +1,6 @@
 <div align="center">
 
-# KneeUp 膝望
+# Kneeup 膝望
 
 **AI rehabilitation companion that brings knee rehab from hospital to home** · Soft Healthcare software loop
 
@@ -22,7 +22,7 @@
 
 **The problem**: knee osteoarthritis affects 365M people worldwide (WHO). In Hong Kong, public-hospital knee replacement waits stretch up to **72 months** (LegCo 2022), and ~**50%** of home exercise programs are abandoned (Argent 2018). The bottleneck of rehab is not in the hospital — it's in every unsupervised day at home.
 
-**KneeUp 膝望** closes that loop with three connected web portals and an AI data layer: patients check in daily and train with real-time safety feedback; clinicians review **AI-generated weekly digests** instead of raw data and adjust training plans; a device simulator streams synthetic sEMG / joint-pressure / flexion signals and reproduces the safety state machine of our pre-competition hardware prototype (**MENISCUS SHIELD**, Arduino + air-cell brace). **Remove the AI layer and the loop collapses** — personalized advice, compensation-pattern detection, risk grading and clinician digests are all AI-driven.
+**Kneeup 膝望** closes that loop with three connected web portals and an AI data layer: patients check in daily and train with real-time safety feedback; clinicians review **AI-generated weekly digests** instead of raw data and adjust training plans; a device simulator streams synthetic sEMG / joint-pressure / flexion signals and reproduces the safety state machine of our pre-competition hardware prototype (**MENISCUS SHIELD**, Arduino + air-cell brace). **Remove the AI layer and the loop collapses** — personalized advice, compensation-pattern detection, risk grading and clinician digests are all AI-driven.
 
 ## 🖥 Live Demo
 
@@ -30,7 +30,7 @@
 |---|---|
 | **Patient** `/patient` | Daily symptom check-in → AI training advice → live training mode (3 real-time charts + 3-state safety light) → AI session report |
 | **Clinician** `/doctor` | Patient list → **AI weekly digest** (no raw-data digging) → adjust training plan → dispatch |
-| **Device Simulator** `/simulator` | Virtual KneeUp brace: scripted or manual control, streams 10 Hz synthetic signals, triggers SAFE→RISK→OVER state machine |
+| **Device Simulator** `/simulator` | Virtual Kneeup brace: scripted or manual control, streams 10 Hz synthetic signals, triggers SAFE→RISK→OVER state machine |
 | **AI Dashboard** `/dashboard` | 1080p one-screen: risk grades, trends, digest carousel, `AI LAYER ACTIVE` |
 
 **90-second walk-through**: clinician reads digest → dispatches plan → patient checks in → trains (simulator streaming; ~62 s yellow *compensation* alert, ~84 s red *over-pressure → auto blow-off*) → AI report → clinician sees new digest. One take, one story.
@@ -46,7 +46,7 @@
 
 ## 🎬 3-Minute Submission Video (roadshow cut)
 
-**[▶ KneeUp 膝望 — 3-minute submission video (MP4, ~4 MB, zh narration + embedded subtitles)](https://github.com/KINGKAZMAX/airflow-knee-plus/releases/download/v1.0/KneeUp-3min-submission-video.mp4)** · [editable SRT](https://github.com/KINGKAZMAX/airflow-knee-plus/releases/download/v1.0/KneeUp-3min-submission-video.srt) · [release notes](https://github.com/KINGKAZMAX/airflow-knee-plus/releases/tag/v1.0)
+**[▶ Kneeup 膝望 — 3-minute submission video (MP4, ~4 MB, zh narration + embedded subtitles)](https://github.com/KINGKAZMAX/kneeup/releases/download/v1.0/Kneeup-3min-submission-video.mp4)** · [editable SRT](https://github.com/KINGKAZMAX/kneeup/releases/download/v1.0/Kneeup-3min-submission-video.srt) · [release notes](https://github.com/KINGKAZMAX/kneeup/releases/tag/v1.0)
 
 Every shot carries an on-screen source label: pre-competition hardware/bench footage vs. hackathon-built software (real session screenshots, synthetic inputs) — disclosed per Vital track transparency rules.
 

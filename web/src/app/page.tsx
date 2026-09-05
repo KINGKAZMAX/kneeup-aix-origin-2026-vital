@@ -6,11 +6,30 @@ const stats = [
   { v: "36%", label: "2046年香港65+人口占比（政府统计处）" },
 ];
 
-const entries = [
+interface Entry {
+  href: string;
+  title: string;
+  desc: string;
+  tag: string;
+  accent: string;
+  hover?: string;
+  hoverText?: string;
+}
+
+const entries: Entry[] = [
   { href: "/patient", title: "患者端", desc: "每日打卡 → AI训练建议 → 实时训练陪伴 → AI报告", tag: "PATIENT", accent: "from-cyan-500/20" },
   { href: "/doctor", title: "医生端", desc: "AI异常摘要 → 调整训练计划 → 下发同步", tag: "CLINICIAN", accent: "from-indigo-500/20" },
-  { href: "/simulator", title: "设备模拟器", desc: "虚拟KneeUp护膝：实时推流 sEMG / 腔压 / 屈膝角度，复现安全状态机", tag: "DEVICE", accent: "from-amber-500/20" },
+  { href: "/simulator", title: "设备模拟器", desc: "虚拟Kneeup护膝：实时推流 sEMG / 腔压 / 屈膝角度，复现安全状态机", tag: "DEVICE", accent: "from-amber-500/20" },
   { href: "/dashboard", title: "AI 数据大屏", desc: "个人基线 · 疲劳与代偿识别 · 风险分级 · 趋势流", tag: "AI LAYER", accent: "from-fuchsia-500/20" },
+  {
+    href: "/body3d",
+    title: "3D 护具与人体",
+    desc: "护具×膝关节×身体问题部位",
+    tag: "3D VIEW",
+    accent: "from-cobalt-500/20",
+    hover: "hover:border-cobalt-300/40 hover:shadow-[0_0_40px_-12px_rgba(67,118,235,0.35)]",
+    hoverText: "group-hover:text-cobalt-300",
+  },
 ];
 
 export default function Home() {
@@ -22,7 +41,7 @@ export default function Home() {
           Soft Healthcare · AIx Origin Summit 2026 HK · Vital 赛道
         </div>
         <h1 className="text-5xl font-bold tracking-tight">
-          KneeUp <span className="text-cyan-300">膝望</span>
+          Kneeup <span className="text-cyan-300">膝望</span>
         </h1>
         <p className="mt-4 max-w-2xl text-lg text-slate-300">
           让膝康复走出医院、回到家里。患者端AI训练陪伴，医生端AI摘要，设备数据实时可见——
@@ -47,10 +66,10 @@ export default function Home() {
           <Link
             key={e.href}
             href={e.href}
-            className={`group rounded-2xl border border-white/10 bg-gradient-to-br ${e.accent} to-transparent p-6 transition hover:border-cyan-400/40 hover:shadow-[0_0_40px_-12px_rgba(56,225,212,0.35)]`}
+            className={`group rounded-2xl border border-white/10 bg-gradient-to-br ${e.accent} to-transparent p-6 transition ${e.hover ?? "hover:border-cyan-400/40 hover:shadow-[0_0_40px_-12px_rgba(56,225,212,0.35)]"}`}
           >
             <div className="mb-2 font-mono text-[11px] tracking-widest text-slate-400">{e.tag}</div>
-            <div className="text-2xl font-semibold group-hover:text-cyan-300">{e.title} →</div>
+            <div className={`text-2xl font-semibold ${e.hoverText ?? "group-hover:text-cyan-300"}`}>{e.title} →</div>
             <p className="mt-2 text-sm text-slate-400">{e.desc}</p>
           </Link>
         ))}

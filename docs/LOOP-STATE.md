@@ -26,7 +26,7 @@
 
 ## 并行会话协同（重要）
 - 另一条ZCode会话在推进同项目互补线：《MENISCUS-SHIELD作战手册》已入飞书（wiki/POgtwaH9vixo0MkktiCcUHsRnkc），浏览器Knee-Brain实时动作追踪demo（localhost:9377，MediaPipe on-device），并检测到**实体M5硬件（ESP32-S3-PICO）**
-- 分工建议：我方=三端Soft Healthcare闭环+合成数据安全状态机（赛道合规强）；对方=摄像头实时动作+真硬件（演示冲击强）——合并叙事：AIR-FLOW Knee+ 三端闭环 + Knee-Brain动作AI + M5真硬件三重演示
+- 分工建议：我方=三端Soft Healthcare闭环+合成数据安全状态机（赛道合规强）；对方=摄像头实时动作+真硬件（演示冲击强）——合并叙事：Kneeup 膝望 三端闭环 + Knee-Brain动作AI + M5真硬件三重演示
 
 ## 待主会话处理
 - 患者端+模拟器合体 → 全站build → 90秒闭环走查 → 禁用词grep

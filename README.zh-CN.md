@@ -1,6 +1,6 @@
 <div align="center">
 
-# KneeUp 膝望
+# Kneeup 膝望
 
 **让膝康复走出医院、回到家里的 AI 训练伙伴** · Soft Healthcare 软件闭环
 
@@ -21,7 +21,7 @@
 
 **问题**：全球膝骨关节炎人群 3.65 亿（WHO）；在香港，公立医院膝关节置换轮候中位最长 **72 个月**（立法会 2022），约 **50%** 的居家锻炼计划半途而废（Argent 2018）。康复的瓶颈不在院内，而在家里每一个无人监督的日子。
 
-**KneeUp 膝望**用三端 Web 闭环 + AI 数据层补上这块缺口：患者每日打卡、跟着实时安全反馈训练；医生看 **AI 生成的周报摘要**（不必翻原始数据）并调整训练计划；设备模拟器实时推流合成 sEMG / 关节腔压 / 屈膝角度信号，并复现赛前硬件原型（**MENISCUS SHIELD**：Arduino + 气囊自适应护膝）的安全状态机。**去掉 AI 层，闭环即不成立**——个性化建议、代偿趋势识别、风险分级、医生摘要全部由 AI 驱动。
+**Kneeup 膝望**用三端 Web 闭环 + AI 数据层补上这块缺口：患者每日打卡、跟着实时安全反馈训练；医生看 **AI 生成的周报摘要**（不必翻原始数据）并调整训练计划；设备模拟器实时推流合成 sEMG / 关节腔压 / 屈膝角度信号，并复现赛前硬件原型（**MENISCUS SHIELD**：Arduino + 气囊自适应护膝）的安全状态机。**去掉 AI 层，闭环即不成立**——个性化建议、代偿趋势识别、风险分级、医生摘要全部由 AI 驱动。
 
 ## 🖥 在线演示
 
@@ -29,7 +29,7 @@
 |---|---|
 | **患者端** `/patient` | 每日症状打卡 → AI 训练建议 → 实时训练模式（三路实时图表 + 三态安全灯）→ AI 训练报告 |
 | **医生端** `/doctor` | 患者列表 → **AI 周报摘要**（不逐条看数据）→ 调整训练计划 → 下发 |
-| **设备模拟器** `/simulator` | 虚拟 KneeUp 护膝：脚本/手动双模式，10Hz 合成信号推流，触发 SAFE→RISK→OVER 状态机 |
+| **设备模拟器** `/simulator` | 虚拟 Kneeup 护膝：脚本/手动双模式，10Hz 合成信号推流，触发 SAFE→RISK→OVER 状态机 |
 | **AI 数据大屏** `/dashboard` | 1080p 一屏：风险分级牌、趋势图、摘要轮播、`AI LAYER ACTIVE` |
 
 **90 秒闭环**：医生看摘要 → 下发计划 → 患者打卡 → 训练（模拟器推流；约 62 秒黄灯*代偿提示*、约 84 秒红灯*压力超限→自动泄气*）→ AI 报告 → 医生收到新摘要。一镜到底。
@@ -45,7 +45,7 @@
 
 ## 🎬 三分钟提交视频（路演剪辑版）
 
-**[▶ 膝望 KneeUp — 三分钟提交视频（MP4，约 4 MB，中文旁白 + 内嵌字幕）](https://github.com/KINGKAZMAX/airflow-knee-plus/releases/download/v1.0/KneeUp-3min-submission-video.mp4)** · [可编辑 SRT 字幕](https://github.com/KINGKAZMAX/airflow-knee-plus/releases/download/v1.0/KneeUp-3min-submission-video.srt) · [发布说明](https://github.com/KINGKAZMAX/airflow-knee-plus/releases/tag/v1.0)
+**[▶ 膝望 Kneeup — 三分钟提交视频（MP4，约 4 MB，中文旁白 + 内嵌字幕）](https://github.com/KINGKAZMAX/kneeup/releases/download/v1.0/Kneeup-3min-submission-video.mp4)** · [可编辑 SRT 字幕](https://github.com/KINGKAZMAX/kneeup/releases/download/v1.0/Kneeup-3min-submission-video.srt) · [发布说明](https://github.com/KINGKAZMAX/kneeup/releases/tag/v1.0)
 
 每个镜头均带画面内来源标签：赛前硬件/台架影像 与 比赛期间构建的软件（真实会话截图、合成输入）按 Vital 赛道透明度要求如实披露。
 

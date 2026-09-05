@@ -36,7 +36,7 @@ export default function DashboardPage() {
       <header className="relative flex shrink-0 items-center justify-between gap-4 border-b border-white/10 pb-3">
         <div className="flex items-center gap-4">
           <h1 className="text-2xl font-bold tracking-tight">
-            ◈ KneeUp <span className="text-[#38E1D4]">膝望</span>
+            ◈ Kneeup <span className="text-[#38E1D4]">膝望</span>
           </h1>
           <span className="rounded-full border border-[#38E1D4]/40 bg-[#38E1D4]/10 px-3 py-1 font-mono text-[11px] tracking-[0.2em] text-[#38E1D4]">
             AI DATA LAYER
