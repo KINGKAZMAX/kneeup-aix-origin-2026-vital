@@ -36,13 +36,22 @@
 **90-second walk-through**: clinician reads digest → dispatches plan → patient checks in → trains (simulator streaming; ~62 s yellow *compensation* alert, ~84 s red *over-pressure → auto blow-off*) → AI report → clinician sees new digest. One take, one story.
 
 <p align="center">
-<img src="assets/knee_patient.png" width="48%" alt="Patient portal"> <img src="assets/knee_simulator.png" width="48%" alt="Device simulator">
+<img src="assets/kw_landing.png" width="92%" alt="kneeup-web flagship landing — carbon black × cobalt blue">
+</p>
+
+<p align="center">
+<img src="assets/knee_patient.png" width="48%" alt="Patient app — today overview (SIMULATED)"> <img src="assets/knee_simulator.png" width="48%" alt="Simulated training demo — live metrics (SIMULATED)">
 </p>
 <p align="center">
-<img src="assets/knee_doctor.png" width="48%" alt="Clinician portal"> <img src="assets/knee_dashboard.png" width="48%" alt="AI dashboard">
+<img src="assets/knee_doctor.png" width="48%" alt="Coach console — risk-tiered roster & plan setting (SIMULATED)"> <img src="assets/knee_dashboard.png" width="48%" alt="AI data screen — dual-channel sEMG × knee-angle stream (SIMULATED)">
+</p>
+<p align="center">
+<img src="assets/kw_3d_lab.png" width="92%" alt="3D brace lab — self-developed CAD model, 128k faces, in-browser">
 </p>
 
 <p align="center"><img src="assets/arch.png" width="92%" alt="Architecture"></p>
+
+> Screenshots: `kneeup-web` flagship demo station (vanilla ES-modules, vendored three.js / MediaPipe / Draco — runs fully offline), built from the local material library under the carbon-black × cobalt-blue UI spec. All data labeled SIMULATED.
 
 ## 🎬 3-Minute Submission Video (roadshow cut)
 

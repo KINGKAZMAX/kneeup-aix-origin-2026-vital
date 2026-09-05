@@ -35,13 +35,22 @@
 **90 秒闭环**：医生看摘要 → 下发计划 → 患者打卡 → 训练（模拟器推流；约 62 秒黄灯*代偿提示*、约 84 秒红灯*压力超限→自动泄气*）→ AI 报告 → 医生收到新摘要。一镜到底。
 
 <p align="center">
-<img src="assets/knee_patient.png" width="48%" alt="患者端"> <img src="assets/knee_simulator.png" width="48%" alt="设备模拟器">
+<img src="assets/kw_landing.png" width="92%" alt="kneeup-web 旗舰演示站落地页 · 碳黑×钴蓝">
+</p>
+
+<p align="center">
+<img src="assets/knee_patient.png" width="48%" alt="用户端 · 今日概览（SIMULATED）"> <img src="assets/knee_simulator.png" width="48%" alt="模拟训练演示 · 实时指标（SIMULATED）">
 </p>
 <p align="center">
-<img src="assets/knee_doctor.png" width="48%" alt="医生端"> <img src="assets/knee_dashboard.png" width="48%" alt="AI大屏">
+<img src="assets/knee_doctor.png" width="48%" alt="教练端 · 风险分层名单与计划设定（SIMULATED）"> <img src="assets/knee_dashboard.png" width="48%" alt="AI 数据屏 · sEMG×膝角双通道实时曲线（SIMULATED）">
+</p>
+<p align="center">
+<img src="assets/kw_3d_lab.png" width="92%" alt="护具 3D 实验室 · 自研 CAD 模型 12.8 万面，浏览器内直转">
 </p>
 
 <p align="center"><img src="assets/arch.png" width="92%" alt="三端架构"></p>
+
+> 截图来自 kneeup-web 旗舰演示站（vanilla ES-Modules，three.js / MediaPipe / Draco 全部 vendor 入库，断网可跑），按本地素材库与碳黑×钴蓝 UI 规范重制；数据均为 SIMULATED 标注。
 
 ## 🎬 三分钟提交视频（路演剪辑版）
 
