@@ -1,10 +1,21 @@
+# macOS
+.DS_Store
+
+# deps & build artifacts
 node_modules/
 .next/
 out/
-.env
-.env.local
-__pycache__/
-.DS_Store
 dist/
+__pycache__/
 *.pyc
 .build/
+
+# secrets
+.env
+.env.local
+
+# internal strategy handbooks (kept local, not for public release)
+*.docx
+
+# editor / session state
+.zcode/
