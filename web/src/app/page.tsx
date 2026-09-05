@@ -9,7 +9,7 @@ const stats = [
 const entries = [
   { href: "/patient", title: "患者端", desc: "每日打卡 → AI训练建议 → 实时训练陪伴 → AI报告", tag: "PATIENT", accent: "from-cyan-500/20" },
   { href: "/doctor", title: "医生端", desc: "AI异常摘要 → 调整训练计划 → 下发同步", tag: "CLINICIAN", accent: "from-indigo-500/20" },
-  { href: "/simulator", title: "设备模拟器", desc: "虚拟AIR-FLOW护膝：实时推流 sEMG / 腔压 / 屈膝角度，复现安全状态机", tag: "DEVICE", accent: "from-amber-500/20" },
+  { href: "/simulator", title: "设备模拟器", desc: "虚拟KneeUp护膝：实时推流 sEMG / 腔压 / 屈膝角度，复现安全状态机", tag: "DEVICE", accent: "from-amber-500/20" },
   { href: "/dashboard", title: "AI 数据大屏", desc: "个人基线 · 疲劳与代偿识别 · 风险分级 · 趋势流", tag: "AI LAYER", accent: "from-fuchsia-500/20" },
 ];
 
@@ -22,7 +22,7 @@ export default function Home() {
           Soft Healthcare · AIx Origin Summit 2026 HK · Vital 赛道
         </div>
         <h1 className="text-5xl font-bold tracking-tight">
-          AIR-FLOW <span className="text-cyan-300">Knee+</span>
+          KneeUp <span className="text-cyan-300">膝望</span>
         </h1>
         <p className="mt-4 max-w-2xl text-lg text-slate-300">
           让膝康复走出医院、回到家里。患者端AI训练陪伴，医生端AI摘要，设备数据实时可见——

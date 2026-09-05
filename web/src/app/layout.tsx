@@ -15,7 +15,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "AIR-FLOW Knee+ · AI 康复训练伙伴",
+  title: "KneeUp 膝望 · AI 康复训练伙伴",
   description: "Soft Healthcare 演示：患者端训练陪伴 × 医生端 AI 摘要 × 设备模拟器。全部合成数据。",
 };
 
@@ -32,7 +32,7 @@ export default function RootLayout({
         {children}
         <Disclaimer />
         <footer className="border-t border-white/10 py-3 text-center text-[11px] text-slate-500">
-          本演示全部使用合成数据，无真实患者数据 · AIR-FLOW Knee+ @ AIx Origin Summit 2026 HK · Vital
+          本演示全部使用合成数据，无真实患者数据 · KneeUp 膝望 @ AIx Origin Summit 2026 HK · Vital
           · All data is synthetic
         </footer>
       </body>

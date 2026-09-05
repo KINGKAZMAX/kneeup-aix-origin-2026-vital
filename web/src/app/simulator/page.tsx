@@ -1,5 +1,5 @@
 "use client";
-// 设备模拟器 /simulator：虚拟 AIR-FLOW Knee+
+// 设备模拟器 /simulator：虚拟 KneeUp 护膝
 // 脚本模式（EVENTS时间轴）/ 手动模式（四滑块）+ 三态大灯 + 实时帧读数 + 事件日志 + 推流说明
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
@@ -175,7 +175,7 @@ export default function SimulatorPage() {
 
       <header className="mb-5 flex flex-wrap items-end justify-between gap-3">
         <div>
-          <h1 className="text-2xl font-bold text-slate-100 sm:text-3xl">设备模拟器 · 虚拟 AIR-FLOW Knee+</h1>
+          <h1 className="text-2xl font-bold text-slate-100 sm:text-3xl">设备模拟器 · 虚拟 KneeUp 护膝</h1>
           <p className="mt-1 text-sm text-slate-400">复现硬件安全状态机：安全 → 代偿风险 → 超限（停止加压 · 立即泄气 · 提示暂停）</p>
         </div>
         {/* 模式切换 */}
