@@ -196,8 +196,7 @@ No keys are committed; no external API is called in the demo build (**no cross-b
 cd web
 npm install
 npm run dev        # http://localhost:3000
-# production static export (already included in web/out)
-npm run build && npx serve out   # production build → static export in out/
+npm run build && npx serve out   # production build → static export in out/ (build output is not committed)
 ```
 
 Delivery demo app (USB read-only observation + on-device pose estimation + AI observation layer + same-machine professional review):
