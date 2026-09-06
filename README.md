@@ -69,6 +69,31 @@
 
 > Screenshots: `kneeup-web` flagship demo station (vanilla ES-modules, vendored three.js / MediaPipe / Draco — runs fully offline), built from the local material library under the carbon-black × cobalt-blue UI spec. All data labeled SIMULATED.
 
+## 🎨 Design Vision Boards — KNEEUP AI Knee Health Ecosystem
+
+The ecosystem vision in ten boards — web landing, live AI motion analysis, 3D product explorer, research intelligence, care dashboard, app onboarding, live squat analysis, rehab coach, progress analytics and device ecosystem — all under the same carbon-black × cobalt-blue UI spec as the demo build.
+
+> **Transparency**: these are AI-assisted **concept visuals** (image generation) that set the design direction — **not product screenshots**. The running hackathon build is documented with real session screenshots in [🖥 Live Demo](#-live-demo) below.
+
+<p align="center">
+<img src="assets/boards/kw_board_01.png" width="92%" alt="Board 01 — Web landing & product overview: your knee, measured live">
+</p>
+<p align="center">
+<img src="assets/boards/kw_board_02.png" width="48%" alt="Board 02 — Live AI motion analysis: real-time biomechanics"> <img src="assets/boards/kw_board_03.png" width="48%" alt="Board 03 — 3D product experience: 360° viewer & exploded structure">
+</p>
+<p align="center">
+<img src="assets/boards/kw_board_04.png" width="48%" alt="Board 04 — Research intelligence: clinical & biomechanics insights"> <img src="assets/boards/kw_board_05.png" width="48%" alt="Board 05 — AI care dashboard: personalized reports & recommendations">
+</p>
+<p align="center">
+<img src="assets/boards/kw_board_06.png" width="48%" alt="Board 06 — App onboarding: welcome & device pairing"> <img src="assets/boards/kw_board_07.png" width="48%" alt="Board 07 — Live squat analysis: real-time AI motion capture">
+</p>
+<p align="center">
+<img src="assets/boards/kw_board_08.png" width="48%" alt="Board 08 — AI rehab coach: personalized training plan"> <img src="assets/boards/kw_board_09.png" width="48%" alt="Board 09 — Progress analytics: recovery tracking & reports">
+</p>
+<p align="center">
+<img src="assets/boards/kw_board_10.png" width="92%" alt="Board 10 — Device ecosystem: web + app smart device control">
+</p>
+
 ## ✅ Checkpoint Evidence Map (per official rubric)
 
 | Rubric dimension | Verifiable evidence in this repo |
@@ -157,6 +182,38 @@ python3 serve.py   # http://localhost:8000
 The software loop extends our industrial-design research **MENISCUS SHIELD** — an adaptive knee brace concept (silicone air-cells + sEMG + joint-pressure sensing; inflate on flexion for support, deflate at rest; auto blow-off on over-pressure), with a working Arduino prototype (full study pages above, source files in `assets/pdf/`). The competition build focuses on the **Soft Healthcare software loop**; hardware remains the roadmap.
 
 Bench footage: [sEMG + pump bench (27 s)](https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/Kneeup-bench-semg-pump-27s.mp4) · [air-cell samples (179 s)](https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/Kneeup-aircell-samples-179s.mp4) · [prototype explainer (70 s)](https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/Kneeup-prototype-explanation-70s.mp4)
+
+### ✏️ From sketch to tooling — process evidence
+
+<p align="center">
+<img src="assets/hw/sketch_ideation.jpg" width="92%" alt="Ideation sketch page — brace form & air-cell exploration">
+</p>
+<p align="center">
+<img src="assets/hw/cad_4view.jpg" width="92%" alt="CAD model — four-view engineering layout (top / perspective / back / left)">
+</p>
+<p align="center">
+<img src="assets/hw/mold_top.jpg" width="48%" alt="3D-printed air-channel molds for silicone air-cells (top view)"> <img src="assets/hw/mold_side.jpg" width="48%" alt="3D-printed air-channel molds (side view)">
+</p>
+<p align="center">
+<img src="assets/hw/silicone_cast_1.jpg" width="48%" alt="Silicone air-cell casting — molds and demolded sheet"> <img src="assets/hw/silicone_cast_2.jpg" width="48%" alt="Silicone casting setup — air-cell sheet in progress">
+</p>
+
+### 🔌 AIR-FLOW Knee+ — verified hardware chain & web-integration plan
+
+<p align="center">
+<img src="assets/hw/airflow_pipeline.png" width="92%" alt="AIR-FLOW knee-assist prototype — verified chain: EMG → amplifier → Arduino UNO → threshold control → relay → pump/valve → air-cell; next: Web Serial live view + AI advice layer">
+</p>
+
+> Verified today (solid line): leg EMG sensor → amplifier/filter → Arduino UNO (serial output live) → threshold logic → relay → pump & 3-way valve → air-cell inflate/deflate. In progress (dashed): Web Serial live view → AI-generated advice & explanation. Knee-angle / pressure-feedback / IMU modules are roadmap items — **we demo only what is verified**.
+
+### 🖼 Concept renders
+
+<p align="center">
+<img src="assets/hw/render_wearing.jpg" width="92%" alt="Wearing render — AIR-FLOW Knee+ on leg, outdoor scene">
+</p>
+<p align="center">
+<img src="assets/hw/render_exploded.jpg" width="48%" alt="Exploded render — full part breakdown"> <img src="assets/hw/render_hanging.jpg" width="48%" alt="Assembly render — suspended module layout">
+</p>
 
 ## ⚖️ Ethics & Compliance Statement
 

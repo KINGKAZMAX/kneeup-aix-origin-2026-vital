@@ -68,6 +68,31 @@
 
 > 截图来自 kneeup-web 旗舰演示站（vanilla ES-Modules，three.js / MediaPipe / Draco 全部 vendor 入库，断网可跑），按本地素材库与碳黑×钴蓝 UI 规范重制；数据均为 SIMULATED 标注。
 
+## 🎨 设计愿景板 — KNEEUP AI 膝关节健康生态
+
+十张板讲完整个生态愿景：Web 落地页、实时 AI 动作分析、3D 产品探索、研究数据洞察、AI 照护看板、App 引导配对、实时深蹲分析、AI 康复教练、进展分析、设备生态控制——全部沿用与演示构建一致的碳黑×钴蓝 UI 规范。
+
+> **透明度声明**：以下为 AI 辅助生成的**概念设计图**（图像生成），用于定设计方向，**并非产品实拍截图**。比赛期间真实构建的运行截图见下方[🖥 在线演示](#-在线演示)。
+
+<p align="center">
+<img src="assets/boards/kw_board_01.png" width="92%" alt="板 01 — Web 落地页与产品总览：Your knee, measured live">
+</p>
+<p align="center">
+<img src="assets/boards/kw_board_02.png" width="48%" alt="板 02 — 实时 AI 动作分析：实时生物力学"> <img src="assets/boards/kw_board_03.png" width="48%" alt="板 03 — 3D 产品体验：360° 查看器与爆炸结构">
+</p>
+<p align="center">
+<img src="assets/boards/kw_board_04.png" width="48%" alt="板 04 — 研究数据洞察：临床与生物力学"> <img src="assets/boards/kw_board_05.png" width="48%" alt="板 05 — AI 照护看板：个性化报告与建议">
+</p>
+<p align="center">
+<img src="assets/boards/kw_board_06.png" width="48%" alt="板 06 — App 引导：欢迎与设备配对"> <img src="assets/boards/kw_board_07.png" width="48%" alt="板 07 — 实时深蹲分析：AI 动作捕捉">
+</p>
+<p align="center">
+<img src="assets/boards/kw_board_08.png" width="48%" alt="板 08 — AI 康复教练：个性化训练计划"> <img src="assets/boards/kw_board_09.png" width="48%" alt="板 09 — 进展分析：康复追踪与报告">
+</p>
+<p align="center">
+<img src="assets/boards/kw_board_10.png" width="92%" alt="板 10 — 设备生态：Web + App 智能设备控制">
+</p>
+
 ## ✅ Checkpoint 证据对位表（按官方评审维度）
 
 | 评审维度 | 本仓库可核验证据 |
@@ -156,6 +181,38 @@ python3 serve.py   # http://localhost:8000
 软件闭环延伸自工业设计研究 **MENISCUS SHIELD**——自适应膝关节护具概念（硅胶气囊 + sEMG + 关节腔压感知；屈膝充气支撑、伸直放气复位；超压自动泄气），已有 Arduino 可运行原型（完整研究页见上方，源文件在 `assets/pdf/`）。本次参赛主体是 **Soft Healthcare 软件闭环**，硬件为下一步路线图。
 
 台架影像：[sEMG + 泵台架（27 秒）](https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/Kneeup-bench-semg-pump-27s.mp4) · [气囊样件（179 秒）](https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/Kneeup-aircell-samples-179s.mp4) · [原型讲解（70 秒）](https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/Kneeup-prototype-explanation-70s.mp4)
+
+### ✏️ 从草图到模具——过程证据
+
+<p align="center">
+<img src="assets/hw/sketch_ideation.jpg" width="92%" alt="手绘推敲——护具形态与气囊结构探索">
+</p>
+<p align="center">
+<img src="assets/hw/cad_4view.jpg" width="92%" alt="CAD 模型——四视图工程布局（顶视 / 透视 / 后视 / 左视）">
+</p>
+<p align="center">
+<img src="assets/hw/mold_top.jpg" width="48%" alt="3D 打印气囊气道模具（俯视）"> <img src="assets/hw/mold_side.jpg" width="48%" alt="3D 打印气囊气道模具（侧视）">
+</p>
+<p align="center">
+<img src="assets/hw/silicone_cast_1.jpg" width="48%" alt="硅胶气囊浇筑——模具与脱模硅胶片"> <img src="assets/hw/silicone_cast_2.jpg" width="48%" alt="硅胶浇筑过程——气囊片成型中">
+</p>
+
+### 🔌 AIR-FLOW Knee+——已验证硬件链路与 Web 接入计划
+
+<p align="center">
+<img src="assets/hw/airflow_pipeline.png" width="92%" alt="AIR-FLOW 膝部辅助原型——已验证链路：肌电 → 放大滤波 → Arduino UNO → 阈值判断 → 继电器 → 气泵/三通阀 → 气囊；下一步：Web Serial 实时可视化 + AI 建议层">
+</p>
+
+> 当前已验证（实线）：腿部肌电传感器 → 放大/滤波 → Arduino UNO（串口实时输出）→ 阈值控制 → 继电器 → 气泵/三通阀 → 气囊充放气。进行中（虚线）：Web Serial 实时画面 → AI 生成建议与解释。膝关节角度 / 压力反馈 / IMU 为路线图模块——**只演示已验证的部分**。
+
+### 🖼 概念渲染
+
+<p align="center">
+<img src="assets/hw/render_wearing.jpg" width="92%" alt="穿戴渲染——AIR-FLOW Knee+ 户外上腿效果">
+</p>
+<p align="center">
+<img src="assets/hw/render_exploded.jpg" width="48%" alt="爆炸渲染——全部件分解"> <img src="assets/hw/render_hanging.jpg" width="48%" alt="悬挂陈列渲染——模块化布局">
+</p>
 
 ## ⚖️ 伦理与合规声明
 
