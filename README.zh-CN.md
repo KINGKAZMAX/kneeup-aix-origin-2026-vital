@@ -69,19 +69,36 @@
 <img src="assets/deck/page-13.png" width="92%" alt="Deck 13 — AI 在哪里：按动作/角度/疲劳综合判断 10–55% 助力档位">
 </p>
 
-## 🎬 视频矩阵
+## 🎬 视频矩阵（内嵌预览，自动播放，无需点开）
+
+**展示视频 · 三分钟路演正片**（中文旁白 + 内嵌字幕，180 秒三连播）——痛点 → 产品闭环 → 软件实录（同一会话实际界面）→ 试点计划；每镜头带画面内来源标签，按 Vital 透明度要求披露
 
 <p align="center">
-<img src="assets/demo_preview.gif" width="92%" alt="30 秒演示预览 GIF — 点开下方完整视频">
+<img src="https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/main-p1.gif" width="31.5%" alt="路演正片 1/3 · 0–60s"> <img src="https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/main-p2.gif" width="31.5%" alt="路演正片 2/3 · 60–120s"> <img src="https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/main-p3.gif" width="31.5%" alt="路演正片 3/3 · 120–180s">
 </p>
 
-| 类型 | 视频 | 时长 | 内容 |
-|---|---|---|---|
-| **展示视频 · 路演** | [▶ 三分钟提交视频（中文旁白 + 内嵌字幕）](https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/Kneeup-3min-submission-video.mp4) · [SRT](https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/Kneeup-3min-submission-video.srt) | 180 秒 | 完整叙事：痛点 → 产品闭环 → 软件实录（同一会话实际界面）→ 试点计划；每镜头带画面内来源标签，按 Vital 透明度要求披露 |
-| **Demo 视频 · 原型讲解** | [▶ MENISCUS SHIELD 原型讲解](https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/Kneeup-prototype-explanation-70s.mp4) | 70 秒 | 赛前硬件原型讲解（已声明的既有工作） |
-| **实验视频 · 台架 A** | [▶ sEMG 肌电电极 + 控制器 + 泵台架](https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/Kneeup-bench-semg-pump-27s.mp4) | 27 秒 | 真实肌电传感链路（腿部电极）+ 泵/控制器台架影像 |
-| **实验视频 · 台架 B** | [▶ 硅胶气囊样件](https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/Kneeup-aircell-samples-179s.mp4) | 179 秒 | 气囊样件探索影像（材料/结构证据，不作功效主张） |
-| **预览 · 在线 Demo** | [🌐 GitHub Pages 四端](https://kingkazmax.github.io/kneeup-aix-origin-2026-vital/)（`/patient` `/doctor` `/simulator` `/dashboard`） | — | 任意浏览器可运行、无需登录；全部合成数据 |
+**Demo 视频 · MENISCUS SHIELD 原型讲解**（赛前既有工作，已声明；15 秒预览）
+
+<p align="center"><img src="https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/prototype.gif" width="66%" alt="原型讲解预览"></p>
+
+**实验视频 · 台架实录**——左：sEMG 肌电电极 + 控制器 + 泵（27 秒节选）；右：硅胶气囊样件探索（12 秒节选；材料/结构证据，不作功效主张）
+
+<p align="center">
+<img src="https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/bench.gif" width="48%" alt="台架 A · sEMG 肌电 + 泵"> <img src="https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/aircell.gif" width="48%" alt="台架 B · 气囊样件">
+</p>
+
+**预览 · 在线 Demo**：[🌐 GitHub Pages 四端直达](https://kingkazmax.github.io/kneeup-aix-origin-2026-vital/)（`/patient` `/doctor` `/simulator` `/dashboard`，任意浏览器可运行、无需登录、全部合成数据）
+
+<details>
+<summary>完整视频与字幕文件（release v1.0 直链）</summary>
+
+- 路演正片完整带声版 MP4（180s）+ 可编辑 SRT
+- 原型讲解完整版 MP4（70s）
+- 台架 A 完整版 MP4（27s）
+- 台架 B 完整版 MP4（179s；另有 <10MB 网络压缩版）
+
+全部在 [release v1.0](https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/tag/v1.0) 资产列表中。
+</details>
 
 ## 🖥 在线演示
 

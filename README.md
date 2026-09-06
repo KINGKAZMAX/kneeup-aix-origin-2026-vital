@@ -70,19 +70,36 @@ The complete 13-page roadshow deck (final version): cover → problem → who we
 <img src="assets/deck/page-13.png" width="92%" alt="Deck 13 — Where is the AI: assist levels 10–55% judged from movement, angle, fatigue">
 </p>
 
-## 🎬 Video Gallery
+## 🎬 Video Gallery (inline previews — autoplay, nothing to click)
+
+**Pitch video · 3-minute roadshow cut** (zh narration + embedded subtitles, 180 s in three parts) — problem → product loop → software walkthrough (real session captures) → pilot plan. Every shot carries an on-screen source label per Vital transparency rules
 
 <p align="center">
-<img src="assets/demo_preview.gif" width="92%" alt="30-second demo preview GIF — full videos below">
+<img src="https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/main-p1.gif" width="31.5%" alt="Pitch part 1/3 · 0–60s"> <img src="https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/main-p2.gif" width="31.5%" alt="Pitch part 2/3 · 60–120s"> <img src="https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/main-p3.gif" width="31.5%" alt="Pitch part 3/3 · 120–180s">
 </p>
 
-| Type | Video | Length | What it shows |
-|---|---|---|---|
-| **展示视频 · Pitch** | [▶ 3-min submission video (zh narration + embedded subtitles)](https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/Kneeup-3min-submission-video.mp4) · [SRT](https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/Kneeup-3min-submission-video.srt) | 180 s | Full story: problem → product loop → software walkthrough (real session captures) → pilot plan. Every shot carries an on-screen source label per Vital transparency rules |
-| **Demo 视频 · Prototype explainer** | [▶ MENISCUS SHIELD prototype explanation](https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/Kneeup-prototype-explanation-70s.mp4) | 70 s | Pre-competition hardware prototype walk-through (declared pre-existing work) |
-| **实验视频 · Bench A** | [▶ sEMG electrodes + controller + pump bench](https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/Kneeup-bench-semg-pump-27s.mp4) | 27 s | Real sEMG sensing chain on leg + pump/controller bench footage |
-| **实验视频 · Bench B** | [▶ Silicone air-cell samples](https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/Kneeup-aircell-samples-179s.mp4) | 179 s | Air-cell sample exploration footage (material/structure evidence, not an efficacy claim) |
-| **预览 · Live Demo** | [🌐 GitHub Pages — 4 routes](https://kingkazmax.github.io/kneeup-aix-origin-2026-vital/) (`/patient` `/doctor` `/simulator` `/dashboard`) | — | Runnable in any browser, no login; all synthetic data |
+**Demo video · MENISCUS SHIELD prototype explainer** (declared pre-competition work; 15 s preview)
+
+<p align="center"><img src="https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/prototype.gif" width="66%" alt="Prototype explainer preview"></p>
+
+**Experiment footage · bench sessions** — left: sEMG electrodes + controller + pump (15 s excerpt); right: silicone air-cell samples (12 s excerpt; material/structure evidence, not an efficacy claim)
+
+<p align="center">
+<img src="https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/bench.gif" width="48%" alt="Bench A · sEMG + pump"> <img src="https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/aircell.gif" width="48%" alt="Bench B · air-cell samples">
+</p>
+
+**Preview · Live Demo**: [🌐 GitHub Pages — 4 routes](https://kingkazmax.github.io/kneeup-aix-origin-2026-vital/) (`/patient` `/doctor` `/simulator` `/dashboard`; runs in any browser, no login, all synthetic data)
+
+<details>
+<summary>Full videos & subtitle file (release v1.0 direct links)</summary>
+
+- Pitch video full MP4 with audio (180 s) + editable SRT
+- Prototype explainer full MP4 (70 s)
+- Bench A full MP4 (27 s)
+- Bench B full MP4 (179 s; plus a <10 MB web-compressed cut)
+
+All in the [release v1.0](https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/tag/v1.0) asset list.
+</details>
 
 ## 🖥 Live Demo
 
