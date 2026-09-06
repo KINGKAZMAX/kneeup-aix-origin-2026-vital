@@ -25,6 +25,50 @@
 
 **Kneeup 膝望**用多端 Web 闭环 + AI 数据层补上这块缺口：患者每日打卡、跟着实时安全反馈训练；医生看 **AI 生成的周报摘要**（不必翻原始数据）并调整训练计划；设备模拟器实时推流合成 sEMG / 关节腔压 / 屈膝角度信号，并复现赛前硬件原型（**MENISCUS SHIELD**：Arduino + 气囊自适应护膝）的安全状态机。**去掉 AI 层，闭环即不成立**——个性化建议、代偿趋势识别、风险分级、医生摘要全部由 AI 驱动。
 
+## 🎯 决赛路演 Deck——13 页完整故事，一目了然
+
+最终版路演排版全览：封面 → 问题切入 → 服务人群 → 用户旅程 → 产品定义 → 研究证据 → 硬件系统 → 闭环控制 → 工作流程 → AI 在哪里。
+
+<p align="center">
+<img src="assets/deck/page-01.png" width="92%" alt="Deck 01 — 封面：KneeUp 膝望 · AI 驱动气动康复护膝系统">
+</p>
+<p align="center">
+<img src="assets/deck/page-02.png" width="92%" alt="Deck 02 — 切入：衰老，从「走路越来越累」开始">
+</p>
+<p align="center">
+<img src="assets/deck/page-03.png" width="92%" alt="Deck 03 — 细节信号：扶手上楼、坡道减速、长走疲劳">
+</p>
+<p align="center">
+<img src="assets/deck/page-04.png" width="92%" alt="Deck 04 — 服务谁：60–75 银发人群、下肢肌力下降、术后康复">
+</p>
+<p align="center">
+<img src="assets/deck/page-05.png" width="92%" alt="Deck 05 — 用户旅程图：一次徒步的分阶段痛点">
+</p>
+<p align="center">
+<img src="assets/deck/page-06.png" width="92%" alt="Deck 06 — KneeUp 是什么：传感 + 气囊助力的穿戴式设备">
+</p>
+<p align="center">
+<img src="assets/deck/page-07.png" width="92%" alt="Deck 07 — 研究：半月板损伤成因分布">
+</p>
+<p align="center">
+<img src="assets/deck/page-08.png" width="92%" alt="Deck 08 — 研究：损伤管理与治疗路径 + 半月板解剖">
+</p>
+<p align="center">
+<img src="assets/deck/page-09.png" width="92%" alt="Deck 09 — 研究：人群差异（45 岁以上退变性损伤超 60%）">
+</p>
+<p align="center">
+<img src="assets/deck/page-10.png" width="92%" alt="Deck 10 — 硬件系统：sEMG 感知、微控制器、智能调节、反馈监测">
+</p>
+<p align="center">
+<img src="assets/deck/page-11.png" width="92%" alt="Deck 11 — 闭环控制逻辑 + 固件代码">
+</p>
+<p align="center">
+<img src="assets/deck/page-12.png" width="92%" alt="Deck 12 — 工作流程：感知动作 → 理解状态 → 判断助力 → 气囊充气">
+</p>
+<p align="center">
+<img src="assets/deck/page-13.png" width="92%" alt="Deck 13 — AI 在哪里：按动作/角度/疲劳综合判断 10–55% 助力档位">
+</p>
+
 ## 🎬 视频矩阵
 
 <p align="center">

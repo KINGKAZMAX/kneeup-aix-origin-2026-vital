@@ -26,6 +26,50 @@
 
 **Kneeup 膝望** closes that loop with connected web apps and an AI data layer: patients check in daily and train with real-time safety feedback; clinicians review **AI-generated weekly digests** instead of raw data and adjust training plans; a device simulator streams synthetic sEMG / joint-pressure / flexion signals and reproduces the safety state machine of our pre-competition hardware prototype (**MENISCUS SHIELD**, Arduino + air-cell brace). **Remove the AI layer and the loop collapses** — personalized advice, compensation-pattern detection, risk grading and clinician digests are all AI-driven.
 
+## 🎯 Final Pitch Deck — the whole story at a glance
+
+The complete 13-page roadshow deck (final version): cover → problem → who we serve → user journey → product → research evidence → hardware system → closed-loop control → working process → where the AI is.
+
+<p align="center">
+<img src="assets/deck/page-01.png" width="92%" alt="Deck 01 — Cover: KneeUp 膝望, AI-powered pneumatic rehab knee system">
+</p>
+<p align="center">
+<img src="assets/deck/page-02.png" width="92%" alt="Deck 02 — Hook: aging begins with walking getting harder">
+</p>
+<p align="center">
+<img src="assets/deck/page-03.png" width="92%" alt="Deck 03 — It starts with small details: handrails, ramps, fatigue">
+</p>
+<p align="center">
+<img src="assets/deck/page-04.png" width="92%" alt="Deck 04 — Who we serve: active-aging 60–75, reduced lower-limb strength, post-op rehab">
+</p>
+<p align="center">
+<img src="assets/deck/page-05.png" width="92%" alt="Deck 05 — User journey map: a full hike, stage by stage">
+</p>
+<p align="center">
+<img src="assets/deck/page-06.png" width="92%" alt="Deck 06 — What is KneeUp: wearable assistive device with sensors + airbag support">
+</p>
+<p align="center">
+<img src="assets/deck/page-07.png" width="92%" alt="Deck 07 — Research: causes of meniscus injuries">
+</p>
+<p align="center">
+<img src="assets/deck/page-08.png" width="92%" alt="Deck 08 — Research: injury & management pathways + meniscus anatomy">
+</p>
+<p align="center">
+<img src="assets/deck/page-09.png" width="92%" alt="Deck 09 — Research: meniscus injuries vary by population (60%+ degenerative at 45+)">
+</p>
+<p align="center">
+<img src="assets/deck/page-10.png" width="92%" alt="Deck 10 — Hardware system: sEMG sensing, microcontroller, smart adjustment, feedback">
+</p>
+<p align="center">
+<img src="assets/deck/page-11.png" width="92%" alt="Deck 11 — Closed-loop control logic + firmware code">
+</p>
+<p align="center">
+<img src="assets/deck/page-12.png" width="92%" alt="Deck 12 — Working process: sense → understand → judge → inflate">
+</p>
+<p align="center">
+<img src="assets/deck/page-13.png" width="92%" alt="Deck 13 — Where is the AI: assist levels 10–55% judged from movement, angle, fatigue">
+</p>
+
 ## 🎬 Video Gallery
 
 <p align="center">
