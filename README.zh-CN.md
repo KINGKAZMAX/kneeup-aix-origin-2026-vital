@@ -122,6 +122,9 @@
 <img src="assets/knee_doctor.png" width="48%" alt="教练端 · 风险分层名单与计划设定（SIMULATED）"> <img src="assets/knee_dashboard.png" width="48%" alt="AI 数据屏 · sEMG×膝角双通道实时曲线（SIMULATED）">
 </p>
 <p align="center">
+<img src="assets/kw_3d_preview.gif" width="92%" alt="护具 3D 预览（GIF）——360° 环绕 + 推进放大看细节：自研 CAD（196MB OBJ · 102 万面）瘦身为 GLB Web 档，浏览器内实时运行">
+</p>
+<p align="center">
 <img src="assets/kw_3d_lab.png" width="92%" alt="护具 3D 实验室 · 自研 CAD 模型 12.8 万面，浏览器内直转">
 </p>
 

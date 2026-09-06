@@ -123,6 +123,9 @@ All in the [release v1.0](https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-v
 <img src="assets/knee_doctor.png" width="48%" alt="Coach console — risk-tiered roster & plan setting (SIMULATED)"> <img src="assets/knee_dashboard.png" width="48%" alt="AI data screen — dual-channel sEMG × knee-angle stream (SIMULATED)">
 </p>
 <p align="center">
+<img src="assets/kw_3d_preview.gif" width="92%" alt="3D brace preview (GIF) — live orbit 360°, zoom & detail views: self-developed CAD (196 MB OBJ · 1.02M faces) slimmed to a GLB web build, running in-browser">
+</p>
+<p align="center">
 <img src="assets/kw_3d_lab.png" width="92%" alt="3D brace lab — self-developed CAD model, 128k faces, in-browser">
 </p>
 
