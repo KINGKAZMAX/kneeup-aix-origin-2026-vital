@@ -13,7 +13,7 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md)
 
-**[🌐 Live Demo (GitHub Pages)](https://kingkazmax.github.io/kneeup-aix-origin-2026-vital/)** · **[🎬 3-min Video](https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/Kneeup-3min-submission-video.mp4)** · **[📄 Checkpoint 进展说明](docs/31-Checkpoint进展说明.md)**
+**[🌐 Live Demo (GitHub Pages)](https://kingkazmax.github.io/kneeup-web/)** · **[🎬 3-min Video](https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/Kneeup-3min-submission-video.mp4)** · **[📄 Checkpoint 进展说明](docs/31-Checkpoint进展说明.md)**
 
 </div>
 
@@ -88,7 +88,12 @@ The complete 13-page roadshow deck (final version): cover → problem → who we
 <img src="https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/bench.gif" width="48%" alt="Bench A · sEMG + pump"> <img src="https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/aircell.gif" width="48%" alt="Bench B · air-cell samples">
 </p>
 
-**Preview · Live Demo**: [🌐 GitHub Pages — 4 routes](https://kingkazmax.github.io/kneeup-aix-origin-2026-vital/) (`/patient` `/doctor` `/simulator` `/dashboard`; runs in any browser, no login, all synthetic data)
+**Preview · Live Demo (open on phone or desktop)**:
+
+- Landing: https://kingkazmax.github.io/kneeup-web/
+- App shell (incl. Assist Level panel): https://kingkazmax.github.io/kneeup-web/apps.html
+- 3D Lab (product/wear/inner/heat): https://kingkazmax.github.io/kneeup-web/3d.html
+- M5 health assistant — interactive online demo: https://kingkazmax.github.io/kneeup-web/apps.html#/assist
 
 <details>
 <summary>Full videos & subtitle file (release v1.0 direct links)</summary>
@@ -102,6 +107,8 @@ All in the [release v1.0](https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-v
 </details>
 
 ## 🖥 Live Demo
+
+> Official entries (open on phone or desktop): [Landing](https://kingkazmax.github.io/kneeup-web/) · [App shell (incl. Assist Level panel)](https://kingkazmax.github.io/kneeup-web/apps.html) · [3D Lab (4 modes)](https://kingkazmax.github.io/kneeup-web/3d.html) · [M5 health assistant — interactive demo](https://kingkazmax.github.io/kneeup-web/apps.html#/assist)
 
 | Portal | What judges walk through |
 |---|---|
