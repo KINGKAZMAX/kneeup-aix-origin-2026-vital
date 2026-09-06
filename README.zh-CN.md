@@ -12,7 +12,7 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md)
 
-**[🌐 在线 Demo（GitHub Pages）](https://kingkazmax.github.io/kneeup-aix-origin-2026-vital/)** · **[🎬 三分钟视频](https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/Kneeup-3min-submission-video.mp4)** · **[📄 Checkpoint 进展说明](docs/31-Checkpoint进展说明.md)**
+**[🌐 在线 Demo（GitHub Pages）](https://kingkazmax.github.io/kneeup-web/)** · **[🎬 三分钟视频](https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/Kneeup-3min-submission-video.mp4)** · **[📄 Checkpoint 进展说明](docs/31-Checkpoint进展说明.md)**
 
 </div>
 
@@ -87,7 +87,12 @@
 <img src="https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/bench.gif" width="48%" alt="台架 A · sEMG 肌电 + 泵"> <img src="https://github.com/KINGKAZMAX/kneeup-aix-origin-2026-vital/releases/download/v1.0/aircell.gif" width="48%" alt="台架 B · 气囊样件">
 </p>
 
-**预览 · 在线 Demo**：[🌐 GitHub Pages 四端直达](https://kingkazmax.github.io/kneeup-aix-origin-2026-vital/)（`/patient` `/doctor` `/simulator` `/dashboard`，任意浏览器可运行、无需登录、全部合成数据）
+**预览 · 在线 Demo（手机/电脑直接打开）**：
+
+- 落地页：https://kingkazmax.github.io/kneeup-web/
+- 应用壳（含助力等级面板）：https://kingkazmax.github.io/kneeup-web/apps.html
+- 3D 实验室（四模式）：https://kingkazmax.github.io/kneeup-web/3d.html
+- M5 健康助理交互在线体验：https://kingkazmax.github.io/kneeup-web/apps.html#/assist
 
 <details>
 <summary>完整视频与字幕文件（release v1.0 直链）</summary>
@@ -101,6 +106,8 @@
 </details>
 
 ## 🖥 在线演示
+
+> 正式入口（手机/电脑直接打开）：[落地页](https://kingkazmax.github.io/kneeup-web/) · [应用壳（含助力等级面板）](https://kingkazmax.github.io/kneeup-web/apps.html) · [3D 实验室（四模式）](https://kingkazmax.github.io/kneeup-web/3d.html) · [M5 健康助理交互在线体验](https://kingkazmax.github.io/kneeup-web/apps.html#/assist)
 
 | 端 | 评委现场走什么 |
 |---|---|
