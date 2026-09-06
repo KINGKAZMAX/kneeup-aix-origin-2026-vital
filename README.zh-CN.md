@@ -108,7 +108,7 @@
 <img src="assets/kw_3d_lab.png" width="92%" alt="护具 3D 实验室 · 自研 CAD 模型 12.8 万面，浏览器内直转">
 </p>
 
-<p align="center"><img src="assets/arch.png" width="92%" alt="三端架构"></p>
+<p align="center"><img src="assets/arch.png" width="92%" alt="全链路闭环架构：医生端 → 患者端 → 硬件安全状态机 → AI 数据层（合成数据）"></p>
 
 > 截图来自 kneeup-web 旗舰演示站（vanilla ES-Modules，three.js / MediaPipe / Draco 全部 vendor 入库，断网可跑），按本地素材库与碳黑×钴蓝 UI 规范重制；数据均为 SIMULATED 标注。
 

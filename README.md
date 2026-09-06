@@ -109,7 +109,7 @@ The complete 13-page roadshow deck (final version): cover → problem → who we
 <img src="assets/kw_3d_lab.png" width="92%" alt="3D brace lab — self-developed CAD model, 128k faces, in-browser">
 </p>
 
-<p align="center"><img src="assets/arch.png" width="92%" alt="Architecture"></p>
+<p align="center"><img src="assets/arch.png" width="92%" alt="End-to-end loop architecture — clinician → patient → device safety state machine → AI data layer (simulated data)"></p>
 
 > Screenshots: `kneeup-web` flagship demo station (vanilla ES-modules, vendored three.js / MediaPipe / Draco — runs fully offline), built from the local material library under the carbon-black × cobalt-blue UI spec. All data labeled SIMULATED.
 
